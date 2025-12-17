@@ -8,8 +8,12 @@ build/
 *.log
 *.bak
 
+installation.yaml
+user.yaml
+trash/
+*.custom.yaml1
+
 sync/**
 !sync/**/
 !sync/**/*.userdb.txt
 !sync/**/user.custom.dict.txt
-!sync/**/user.yaml
