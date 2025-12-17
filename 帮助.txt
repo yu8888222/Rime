@@ -1,0 +1,16 @@
+amq 墨奇反查 如啊 amq kzke 口可
+aw 英文单词
+ob 查看按键的字根
+ac 造词，需要重新部署保存
+ae Emoji
+R 数字大写
+N 日期转换
+V 计算器
+
+当前时间
+date 日期
+time 时间
+anl 农历
+week 星期
+datetime 日期和时间
+timestamp 时间戳

@@ -1,0 +1,15 @@
+.DS_Store
+
+build/
+*.userdb/
+
+*.bin
+*.ocd
+*.log
+*.bak
+
+sync/**
+!sync/**/
+!sync/**/*.userdb.txt
+!sync/**/user.custom.dict.txt
+!sync/**/user.yaml

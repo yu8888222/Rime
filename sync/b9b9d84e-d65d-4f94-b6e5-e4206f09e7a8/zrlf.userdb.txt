@@ -1,0 +1,6 @@
+# Rime user dictionary
+#@/db_name	zrlf
+#@/db_type	userdb
+#@/rime_version	1.13.0
+#@/tick	0
+#@/user_id	b9b9d84e-d65d-4f94-b6e5-e4206f09e7a8

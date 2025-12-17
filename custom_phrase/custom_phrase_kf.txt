@@ -1,0 +1,289 @@
+# coding: utf-8
+# 小鹤音形 小字和快符
+# 该文件以UTF-8编码保存
+# 编码格式：字词+Tab符+编码（词库本身有重码则还需后面+Tab符+权重，权重大者居前，权重数字随意）
+#    === 强调一下 === 
+# 
+#   词条和编码之间的不是空格，而是Tab符，如果你不知道，就复制下面编码中的空白处
+#   或者按住键盘 G 键，切换到功能键盘，使用上面的Tab键
+# 
+#    ================
+# 
+
+
+
+# 符号
+？	ow
+！	og
+%	ob
+*	ox
+：	om
+、	od
+；	of
+（	ok	4
+）	ok	2
+《	oi	90
+》	oi
+"	oy	
+标点d	ofb
+
+
+
+单位w	ofd	99
+㎎	ofdw	100
+㎏	ofdw	99
+㎜	ofdw	98
+㎝	ofdw	97
+㎞	ofdw	96
+㎡	ofdw	95
+nm	ofdw	94
+μm	ofdw	93
+μg	ofdw	92
+㏄	ofdw	91
+㏎	ofdw	90
+㏑	ofdw	89
+㏒	ofdw	88
+㏕	ofdw	87
+
+货币b	ofh
+€	ofhb	100
+$	ofhb	99
+￠	ofhb	98
+£	ofhb	97
+￡	ofhb	96
+¥	ofhb	94
+￥	ofhb	93
+฿	ofhb	92
+
+箭头t	ofj
+←	ofjt	100
+→	ofjt	99
+↑	ofjt	98
+↓	ofjt	97
+↗	ofjt	96
+↙	ofjt	95
+↘	ofjt	94
+↖	ofjt	93
+↔	ofjt	92
+↕	ofjt	91
+
+
+拼音y	ofp	99
+ā	ofpy	100
+á	ofpy	99
+ǎ	ofpy	98
+à	ofpy	97
+ō	ofpy	96
+ó	ofpy	95
+ǒ	ofpy	94
+ò	ofpy	93
+ê	ofpy	92
+ē	ofpy	91
+é	ofpy	90
+ě	ofpy	89
+è	ofpy	88
+ī	ofpy	87
+í	ofpy	86
+ǐ	ofpy	85
+ì	ofpy	84
+ǖ	ofpy	83
+ǘ	ofpy	82
+ǚ	ofpy	81
+ǜ	ofpy	80
+ü	ofpy	79
+ū	ofpy	78
+ú	ofpy	77
+ǔ	ofpy	76
+ù	ofpy	75
+罗大d	ofl	100
+Ⅰ	ofld	100
+Ⅱ	ofld	99
+Ⅲ	ofld	98
+Ⅳ	ofld	97
+Ⅴ	ofld	96
+Ⅵ	ofld	95
+Ⅶ	ofld	94
+Ⅷ	ofld	93
+Ⅸ	ofld	92
+Ⅹ	ofld	91
+Ⅺ	ofld	90
+Ⅻ	ofld	89
+罗小x	ofl	99
+ⅰ	oflx	100
+ⅱ	oflx	99
+ⅲ	oflx	98
+ⅳ	oflx	97
+ⅴ	oflx	96
+ⅵ	oflx	95
+ⅶ	oflx	94
+ⅷ	oflx	93
+ⅸ	oflx	92
+ⅹ	oflx	91
+
+数学x	ofu
+±	ofux	95
+×	ofux	94
+÷	ofux	93
+∈	ofux	92
+∏	ofux	91
+∑	ofux	90
+∕	ofux	89
+√	ofux	88
+∝	ofux	87
+∞	ofux	86
+∟	ofux	85
+∠	ofux	84
+∣	ofux	83
+∥	ofux	82
+∧	ofux	81
+∨	ofux	80
+∩	ofux	79
+∪	ofux	78
+∫	ofux	77
+∮	ofux	76
+∴	ofux	75
+∵	ofux	74
+∶	ofux	73
+∷	ofux	72
+∽	ofux	71
+≈	ofux	70
+≌	ofux	69
+≒	ofux	68
+≠	ofux	96
+≡	ofux	66
+≤	ofux	97
+≥	ofux	98
+≦	ofux	99
+≧	ofux	100
+≮	ofux	61
+≯	ofux	60
+⊕	ofux	59
+⊙	ofux	58
+⊥	ofux	57
+⊿	ofux	56
+
+
+圆数u	ofy
+①	ofyu	100
+②	ofyu	99
+③	ofyu	98
+④	ofyu	97
+⑤	ofyu	96
+⑥	ofyu	95
+⑦	ofyu	94
+⑧	ofyu	93
+⑨	ofyu	92
+⑩	ofyu	91
+
+上标b	ofu	99
+¹	ofub	100
+²	ofub	99
+³	ofub	98
+⁴	ofub	97
+⁵	ofub	96
+⁶	ofub	95
+⁷	ofub	94
+⁸	ofub	93
+⁹	ofub	92
+⁰	ofub	91
+⁺	ofub	90
+⁻	ofub	89
+⁼	ofub	88
+⁽	ofub	87
+⁾	ofub	86
+ⁿ	ofub	85
+ˣ	ofub	84
+下标b	ofx	99
+₁	ofxb	100
+₂	ofxb	99
+₃	ofxb	98
+₄	ofxb	97
+₅	ofxb	96
+₆	ofxb	95
+₇	ofxb	94
+₈	ofxb	93
+₉	ofxb	92
+₀	ofxb	91
+₊	ofxb	90
+₋	ofxb	89
+₌	ofxb	88
+₍	ofxb	87
+₎	ofxb	86
+ₙ	ofxb	85
+ₓ	ofxb	84
+
+～	op
+‰	oq
+……	os
+＆	ota	100
+α	ota	99
+β	otb	99
+©	otb	98
+°	otd	100
+≠	ltd	98
+≥	otd	97
+>	otd	97
+
+′	otf	100
+Φ	otf	99
+□	otf	98
+■	otf	97
+√	otg	100
+γ	otg	99
+¤	oth	98
+×	oti	100
+÷	oti	99
+＋	otj	100
+－	otj	99
+m³	otl	100
+″	otm	100
+μ	otm	99
+﹩	otm	98
+￠	otm	97
+♂	otn	100
+♀	otn	99
+№	otn	98
+€	oto	100
+Ω	oto	99
+㎡	otp	100
+π	otp	99
+‰	otq
+¥	otr	100
+￥	otr	99
+
+฿	ott	100
+℡	ott	99
+
+™	otu	96
+§	otv	100
+®	otv	99
+㈱	otv	98
+‱	otw	100
+∞	otw	99
+卍	otw	98
+卐	otw	97
+≤	otx	96
+☆	otx	94
+★	otx	93
+
+≈	otd	98
+①	oty	90
+②	ote	90
+③	ots	90
+④	ots	90
+⑤	otw	90
+⑥	otl	90
+⑦	otq	90
+⑧	otb	90
+⑨	otj	90
+⑩	otu	90
+Ⅰ	oty	30
+Ⅱ	ote	30
+Ⅲ	ots	30
+Ⅳ	ots	30
+Ⅴ	otw	30
+Ⅵ	otl	30
+Ⅶ	otq	30
+Ⅷ	otb	30
+Ⅸ	otj	30
+Ⅹ	otu	30

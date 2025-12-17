@@ -1,0 +1,15 @@
+customization:
+  distribution_code_name: Weasel
+  distribution_version: 0.16.3
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Fri Apr 11 14:08:27 2025"
+  rime_version: 1.11.2
+patch:
+  menu:
+    page_size: 2
+
+  schema_list:
+    - {schema: moqi_xh}
+    - {schema: moqi_single_xh}
+
+  ascii_composer/switch_key/Caps_Lock: commit_code
