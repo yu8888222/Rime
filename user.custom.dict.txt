@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	674
+#@/tick	693
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -17,12 +17,12 @@
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 个锐	ge rv[jx	2
-鸽钟	ge[rn vs[jv	240
-鸽主	ge[rn vu[wt	94
+鸽钟	ge[rn vs[jv	252
+鸽主	ge[rn vu[wt	98
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	10
 广	gl[di	0
-公棚	gs[bs pg[mo	524
+公棚	gs[bs pg[mo	542
 公棚端	gs[bs pg[mo dr	4
 公棚下	gs[bs pg[mo xx	6
 号	hc[kk	0
@@ -33,8 +33,8 @@
 城	ig[ti	0
 进	jb[zj	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
-集鸽	ji[rm ge[rn	314
-集鸽器	ji[rm ge[rn qi[kk	304
+集鸽	ji[rm ge[rn	328
+集鸽器	ji[rm ge[rn qi[kk	306
 吉	ji[tk	0
 吉云一道	ji[tk yy yi[aa dc[zz	2
 脚针	jn[oe vf[ju	6
@@ -55,7 +55,7 @@
 赛管锐	sd gr rv[jx	2
 赛格	sd[bb ge[mk	0
 赛格锐	sd[bb ge[mk rv[jx	198
-司放	si[vk fh	10
+司放	si[vk fh	16
 天津	tm[ad jb[dy	0
 天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
 同学	ts[kk xt[xz	0
