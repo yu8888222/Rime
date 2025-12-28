@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	693
+#@/tick	695
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -61,7 +61,9 @@
 同学	ts[kk xt[xz	0
 啥	ua	0
 啥公棚	ua gs[bs pg[mo	2
+上	uh	0
 上笼	uh ls[vl	12
+上一曲	uh yi[aa qu[kc	2
 水	uv[ln	0
 这么大	ve[zw me[ps da[ar	0
 主	vu	0
@@ -73,10 +75,12 @@
 小	xn[lb	0
 小闫同学	xn[lb yj[ms ts[kk xt[xz	4
 下	xx	0
+下一曲	xx yi[aa qu[kc	2
 训放	xy[yi fh	6
 银豆网	yb[jg dz[ab wh[kx	4
 央智眼	yh[kr vi[uo yj[og	48
 一道	yi[aa dc[zz	0
+一曲	yi[aa qu[kc	0
 闫	yj[ms	0
 羽色	yu[xx se	2
 云	yy	0
