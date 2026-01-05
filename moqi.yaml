@@ -94,6 +94,7 @@ switches_engine:
       - reverse_lookup_filter@reverse_lookup
 
       # Emoji
+      - lua_filter@*reduce_english_filter # 降低英语单词在候选项的位置
       - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
       - simplifier@chaifen
       - simplifier@chaifen_all
@@ -331,7 +332,7 @@ guide:
     dictionary: easy_en
     enable_completion: true
     enable_sentence: false
-    prefix: "aw"
+    # prefix: "aw"
     # suffix: "'"
     tips: "英文单词（可去元音）"
     spelling_hints: 9
@@ -398,3 +399,7 @@ big_char_and_user_dict:
       - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
     prefix: "ac"
     tips: "〔自造词〕"
+
+reduce_english_filter:
+  idx: 2
+
