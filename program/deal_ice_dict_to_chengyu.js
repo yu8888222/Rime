@@ -31,7 +31,7 @@ dictLines.forEach((line) => {
 console.log("孙 " + dictData['孙'])
 
 // 需要修改的YAML文件的路径
-const yamlFilePath = path.join(__dirname, '../cn_dicts/base.dict.yaml');
+const yamlFilePath = path.join(__dirname, '../cn_dicts_moqi/base.dict.yaml');
 
 // 需要修改的YAML文件的路径
 const writeFilePath = path.join(__dirname, '../cn_dicts_xh/changcijian.dict.yaml');

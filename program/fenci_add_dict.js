@@ -91,7 +91,7 @@ const file_list = ['base.dict.yaml', 'ext.dict.yaml', 'others.dict.yaml']
 const dict_word_set = new Set();
 
 for (file_name of file_list) {
-    const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
+    const yamlFilePath = path.join(__dirname, '../cn_dicts_moqi/', file_name);
 
     const word_set = get_word_set(yamlFilePath)
     // 将每个文件的单词集合合并到 dict_word_set 中
@@ -112,7 +112,7 @@ dict_word_set.forEach(word => {
 
 const tencent_file_list = ['tencent.dict.yaml']
 for (file_name of tencent_file_list) {
-    const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
+    const yamlFilePath = path.join(__dirname, '../cn_dicts_common/', file_name);
 
     const word_set = get_word_set(yamlFilePath)
     // 将每个文件的单词集合合并到 dict_word_set 中

@@ -26,9 +26,8 @@ def zip_folders_and_files(zip_name, folders, files):
 # 使用示例  
 folders = ['cn_dicts_moqi', 'cn_dicts_common','custom_phrase','lua','opencc']  
 files = ['default.yaml', 
-         'moqi_big.schema.yaml','moqi_big.extended.dict.yaml',
-         'moqi_ms.schema.yaml','moqi_single_xh.schema.yaml','moqi_single.dict.yaml',
-         'moqi_sogou.schema.yaml','moqi_xh.schema.yaml','moqi_zrm.schema.yaml',
+         'moqi_single_xh.schema.yaml','moqi_single.dict.yaml',
+         'moqi_xh.schema.yaml',
          'moqi.extended.dict.yaml',
          'symbols_caps_v.yaml','rime.lua','moqi.yaml'
          ]  

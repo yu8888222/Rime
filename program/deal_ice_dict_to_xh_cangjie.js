@@ -210,7 +210,7 @@ const file_list = ['8105.dict.yaml', '41448.dict.yaml', 'base.dict.yaml', 'ext.d
 
 for (file_name of file_list) {
     // 需要修改的YAML文件的路径
-    const yamlFilePath = path.join(__dirname, '../cn_dicts/', file_name);
+    const yamlFilePath = path.join(__dirname, '../cn_dicts_moqi/', file_name);
 
     // 需要修改的YAML文件的路径
     const writeFilePath = path.join(__dirname, '../cn_dicts_xh_cangjie/', file_name);
@@ -224,4 +224,3 @@ for (file_name of file_list) {
     // Call the function to update missing encodings in the file
     updateMissingEncodings(yamlFilePath, writeFilePath);
 }
-

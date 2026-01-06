@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // dict文件的路径
-const dictFilePath = path.join(__dirname, '../cn_dicts/base.dict.yaml');
+const dictFilePath = path.join(__dirname, '../cn_dicts_moqi/base.dict.yaml');
 
 // 同步读取YAML文件
 const dictFileContent = fs.readFileSync(dictFilePath, 'utf8');
