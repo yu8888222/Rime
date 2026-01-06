@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	695
+#@/tick	703
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -17,24 +17,24 @@
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 个锐	ge rv[jx	2
-鸽钟	ge[rn vs[jv	252
+鸽钟	ge[rn vs[jv	260
 鸽主	ge[rn vu[wt	98
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	10
 广	gl[di	0
-公棚	gs[bs pg[mo	542
+公棚	gs[bs pg[mo	556
 公棚端	gs[bs pg[mo dr	4
 公棚下	gs[bs pg[mo xx	6
 号	hc[kk	0
 海港	hd[dm gh[ds	0
 海港城	hd[dm gh[ds ig[ti	4
-查棚	ia[md pg[mo	26
-程洋	ig[hw yh[dy	2
+查棚	ia[md pg[mo	28
+程洋	ig[hw yh[dy	4
 城	ig[ti	0
 进	jb[zj	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
-集鸽	ji[rm ge[rn	328
-集鸽器	ji[rm ge[rn qi[kk	306
+集鸽	ji[rm ge[rn	346
+集鸽器	ji[rm ge[rn qi[kk	308
 吉	ji[tk	0
 吉云一道	ji[tk yy yi[aa dc[zz	2
 脚针	jn[oe vf[ju	6
@@ -62,8 +62,8 @@
 啥	ua	0
 啥公棚	ua gs[bs pg[mo	2
 上	uh	0
-上笼	uh ls[vl	12
-上一曲	uh yi[aa qu[kc	2
+上笼	uh ls[vl	18
+上一曲	uh yi[aa qu[kc	4
 水	uv[ln	0
 这么大	ve[zw me[ps da[ar	0
 主	vu	0
@@ -71,12 +71,14 @@
 万科	wj[av ke[hd	0
 万科海港城	wj[av ke[hd hd[dm gh[ds ig[ti	2
 湾	wj[dg	0
+无效	wu[ay xn[ww	0
+无效足环	wu[ay xn[ww zu[kz hr[wb	2
 微雪	ww[rj xt[ye	12
 小	xn[lb	0
 小闫同学	xn[lb yj[ms ts[kk xt[xz	4
 下	xx	0
 下一曲	xx yi[aa qu[kc	2
-训放	xy[yi fh	6
+训放	xy[yi fh	8
 银豆网	yb[jg dz[ab wh[kx	4
 央智眼	yh[kr vi[uo yj[og	48
 一道	yi[aa dc[zz	0
@@ -84,6 +86,8 @@
 闫	yj[ms	0
 羽色	yu[xx se	2
 云	yy	0
+有	yz	0
+有上笼	yz uh ls[vl	4
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
 足环	zu[kz hr[wb	18

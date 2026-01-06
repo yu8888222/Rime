@@ -14,3 +14,17 @@ anl 农历
 week 星期
 datetime 日期和时间
 timestamp 时间戳
+
+=== 快捷键说明 ===
+Ctrl + Space      切换输入法
+Ctrl + Shift      切换输入法
+Shift             切换中英文
+Shift + Space     切换全角/半角
+Ctrl + .          切换中英文标点
+Page Up/Page Down 翻页选择候选词
+Tab               切换候选词组
+Enter             确认输入
+Esc               取消输入
+Backspace         删除字符
+Delete            删除字符
+方向键            移动光标/选择候选词

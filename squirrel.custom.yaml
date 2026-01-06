@@ -1,0 +1,54 @@
+patch:
+  "preset_color_schemes/+":
+    win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x06b000, label_color: 0x191919, name: "Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
+  "style/+":
+    color_scheme: win11light
+    comment_font_point: 15
+    font_point: 15
+    horizontal: true
+    inline_preedit: true
+    label_font_point: 15
+    label_format: ""
+  "style/color_scheme": win11light
+  app_options:
+    co.zeit.hyper:
+      ascii_mode: true
+    com.alfredapp.Alfred:
+      ascii_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      no_inline: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
+    com.barebones.textwrangler:
+      ascii_mode: true
+    com.blacktree.Quicksilver:
+      ascii_mode: true
+    com.github.atom:
+      ascii_mode: true
+    com.google.Chrome:
+      inline: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+      no_inline: true
+    com.macromates.TextMate.preview:
+      ascii_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+    com.runningwithcrayons.Alfred-2:
+      ascii_mode: true
+    com.sublimetext.2:
+      ascii_mode: true
+    ' org.gnu.Aquamacs':
+      ascii_mode: true
+    org.gnu.Emacs:
+      ascii_mode: true
+      no_inline: true
+    org.vim.MacVim:
+      ascii_mode: true
+      no_inline: true
+      vim_mode: true
+    ru.keepcoder.Telegram:
+      inline: true
