@@ -119,7 +119,7 @@ translator:
   enable_completion: false
   ##  默认为不超过 2 个字的候选项显示输入码；将 2 改为 0 可关闭编码提示，
   ##  改为 1 则是只显示单字的输入码，依此类推。
-  spelling_hints:2
+  spelling_hints: 2
   comment_format:
     - "xform/(^|[ '])[^[]+[[]/$1/" ## 编码提示只显示辅助码部分
 
@@ -192,13 +192,13 @@ key_binder:
     # - { when: composing, match: "[a-z]{2}", accept: Tab, send: '|' }
 
     ## 启用光标回退至特定音节后、补充辅助码的功能。补充完辅助码后，可以再按一次tab回到整句检查
-    - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}[' }
-    - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
-    - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    - { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    - { when: composing, accept: Control+5, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
-    - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+    - { when: composing, accept: Control+1, send_sequence: '{Home}{Shift+Right}' }
+    - { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}' }
+    - { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}' }
+    - { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}' }
+    - { when: composing, accept: Control+5, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}' }
+    - { when: composing, accept: Control+6, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}' }
+    - { when: composing, accept: Control+7, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}' }
 
     # 大写辅助码加到整句第一个音节，例如iuyyfw默认是楚云飞，按下shift+u (iuu yy fw)变成出运费
     - { when: has_menu, accept: Shift+A, send_sequence: "{Shift+Right}a{Shift+Right}" }
