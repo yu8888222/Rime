@@ -34,7 +34,7 @@ style:
   line_spacing: 8
   hilite_spacing: 6
   spacing: 12
-  text_orientation: horizontal  # horizontal | vertical
+  text_orientation: vertical  # horizontal | vertical
 
 preset_color_schemes:
   native:
