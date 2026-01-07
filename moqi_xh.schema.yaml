@@ -246,3 +246,6 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 100001
+
+menu:
+  page_size: 5
