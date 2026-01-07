@@ -6,7 +6,7 @@ customization:
   rime_version: 1.11.2
 patch:
   menu:
-    page_size: 5
+    page_size: 2
 
   schema_list:
     - {schema: moqi_xh}
