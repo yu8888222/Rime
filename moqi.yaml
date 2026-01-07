@@ -336,8 +336,8 @@ guide:
     dictionary: easy_en
     enable_completion: true
     enable_sentence: false
-    # prefix: "aw"
-    # suffix: "'"
+    prefix: "aw"
+    suffix: "'"
     tips: "英文单词（可去元音）"
     spelling_hints: 9
     comment_format:
