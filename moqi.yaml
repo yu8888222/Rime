@@ -334,7 +334,7 @@ guide:
   easy_en_simp:
     tag: easy_en_simp
     dictionary: easy_en
-    enable_completion: true
+    enable_completion: false
     enable_sentence: false
     prefix: "aw"
     suffix: "'"
