@@ -10,7 +10,7 @@ patch:
     win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x06b000, label_color: 0x191919, name: " Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
   "style/+":
     color_scheme: win11light
-    comment_font_point: 15
+    comment_font_point: 12
     font_point: 15
     horizontal: false
     inline_preedit: true
