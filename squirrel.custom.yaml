@@ -9,6 +9,7 @@ patch:
     inline_preedit: true
     label_font_point: 15
     label_format: ""
+    candidate_format: " %@ "
   "style/color_scheme": win11light
   app_options:
     co.zeit.hyper:
