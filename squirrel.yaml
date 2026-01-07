@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 # 要比共享目錄同名文件版本號更大方可生效
-config_version: '2024-06-11'
+config_version: '2026-01-07'
 
 # options: last | default | _custom_
 # last: the last used latin keyboard layout
@@ -853,7 +853,7 @@ preset_color_schemes:
 
   win11light:
     name: Win11Light
-    candidate_format: " %c %@ "
+    candidate_format: " %c %c %@ "
     back_color: 0xfbfbfb
     border_color: 0x10f0f0f0
     candidate_back_color: 0xfff9f9f9
