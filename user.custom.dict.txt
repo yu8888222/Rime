@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	703
+#@/tick	708
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -12,18 +12,20 @@
 北上广	bw[lb uh[ba gl[di	2
 电话	dm[ov hx[yu	0
 端	dr	0
+端	dr[le	0
 都是	dz[le ui[oz	0
 都是水	dz[le ui[oz uv[ln	2
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 个锐	ge rv[jx	2
 鸽钟	ge[rn vs[jv	260
-鸽主	ge[rn vu[wt	98
+鸽主	ge[rn vu[wt	100
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	10
 广	gl[di	0
-公棚	gs[bs pg[mo	556
+公棚	gs[bs pg[mo	560
 公棚端	gs[bs pg[mo dr	4
+公棚端	gs[bs pg[mo dr[le	2
 公棚下	gs[bs pg[mo xx	6
 号	hc[kk	0
 海港	hd[dm gh[ds	0
@@ -33,8 +35,8 @@
 城	ig[ti	0
 进	jb[zj	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
-集鸽	ji[rm ge[rn	346
-集鸽器	ji[rm ge[rn qi[kk	308
+集鸽	ji[rm ge[rn	348
+集鸽器	ji[rm ge[rn qi[kk	310
 吉	ji[tk	0
 吉云一道	ji[tk yy yi[aa dc[zz	2
 脚针	jn[oe vf[ju	6

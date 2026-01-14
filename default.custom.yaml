@@ -10,6 +10,5 @@ patch:
 
   schema_list:
     - {schema: moqi_xh}
-    - {schema: moqi_single_xh}
 
   ascii_composer/switch_key/Caps_Lock: commit_code

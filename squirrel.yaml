@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 # 要比共享目錄同名文件版本號更大方可生效
-config_version: '2026-01-07'
+config_version: '2024-06-11'
 
 # options: last | default | _custom_
 # last: the last used latin keyboard layout
@@ -35,6 +35,7 @@ style:
   hilite_spacing: 6
   spacing: 12
   text_orientation: horizontal  # horizontal | vertical
+  candidate_list_layout: vertical  # linear | vertical
 
 preset_color_schemes:
   native:
