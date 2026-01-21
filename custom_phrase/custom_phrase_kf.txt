@@ -25,6 +25,8 @@
 《	oi	90
 》	oi
 "	oy	
+_	oh
+
 标点d	ofb
 
 
