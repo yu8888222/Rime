@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	727
+#@/tick	737
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -11,6 +11,7 @@
 北上	bw[lb uh[ba	0
 北上广	bw[lb uh[ba gl[di	2
 电话	dm[ov hx[yu	0
+点	dm[vh	0
 端	dr	0
 端	dr[le	0
 都是	dz[le ui[oz	0
@@ -30,6 +31,7 @@
 号	hc[kk	0
 海港	hd[dm gh[ds	0
 海港城	hd[dm gh[ds ig[ti	4
+回收价	hv[kk uz[jw jx[rj	2
 查棚	ia[md pg[mo	28
 程洋	ig[hw yh[dy	6
 城	ig[ti	0
@@ -42,14 +44,20 @@
 脚针	jn[oe vf[ju	6
 揭效	jp[fr xn[ww	2
 捷效	jp[fz xn[ww	2
-嘉立创	jx[tk li[wb il[rd	38
+嘉立创	jx[tk li[wb il[rd	42
+库存	ku[gi cy[uz	0
 立创	li[wb il[rd	2
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0
 连续集鸽	lm[zi xu[sd ji[rm ge[rn	2
+那	na[ve	0
+那欠费	na[ve qm[dr fw[fb	2
 排针	pd[ff vf[ju	2
+清	qk[do	2
+清点库存	qk[do dm[vh ku[gi cy[uz	12
 清水	qk[do uv[ln	0
 清水蓝湾	qk[do uv[ln lj[cm wj[dg	6
+欠费	qm[dr fw[fb	0
 钱盆网	qm[jj pf[fm wh[kx	8
 去	qu	0
 去公棚	qu gs[bs pg[mo	2
