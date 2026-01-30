@@ -1,7 +1,6 @@
 ## 超强2简 26*26=676词空间。 使用deal_super_2jian.py生成
 #暗暗	aa/
 暗部	ab/
-凹槽	ac/
 爱的	ad/
 
 安抚	af/
@@ -9,7 +8,6 @@
 爱好	ah/
 
 案件	aj/
-Android	az/
 好吧	hb/
 
 按摩	am/
@@ -34,7 +32,6 @@ Android	az/
 补充	bi/
 
 
-遍历	bl/
 
 不能	bn/
 
@@ -101,12 +98,10 @@ Android	az/
 
 
 耳朵	ed/
-嗯嗯	ee/
 
 而后	eh/
 
 耳机	ej/
-儿科	ek/
 
 恶魔	em/
 
@@ -346,7 +341,6 @@ Android	az/
 
 
 
-哦哦	oo/
 
 
 偶然	or/
@@ -453,7 +447,6 @@ Android	az/
 
 设备	ub/
 
-是的	ud/
 
 
 
@@ -591,4 +584,3 @@ Android	az/
 
 咨询	zx/
 怎样	zy/
-
