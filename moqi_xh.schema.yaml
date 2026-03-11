@@ -530,6 +530,11 @@ key_binder:
     - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
 
 # 3码出简让全
+# custom_phrase_super_3jian 配置在 moqi.yaml 中定义（第 203 行）
+# custom_phrase/custom_phrase_super_3jian.txt 是超强 3 简词库源文件
+# 该文件包含常用短语的 3 码简码映射（如：rgn/ 如果你、wjd/ 我觉得、uyg/ 是一个）
+# 通过 deal_super_3jian.py 脚本生成，用于提升 3 码输入效率
+# 在 moqi.yaml 的 engine/translators 中已启用 table_translator@custom_phrase_super_3jian
 custom_phrase_3_code:
   dictionary: ""
   user_dict: custom_phrase/custom_phrase_3_code
