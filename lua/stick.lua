@@ -15,8 +15,7 @@ function M.init(env)
     -- 定义固定词典文件的路径
     local paths = {
         rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_1jian.txt",
-        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_2jian.txt",
-        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_3jian.txt"
+        rime_api.get_user_data_dir() .. "/custom_phrase/custom_phrase_super_2jian.txt"
     }
 
     -- 遍历每个路径，加载固定词典
