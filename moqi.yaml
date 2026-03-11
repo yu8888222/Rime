@@ -12,9 +12,7 @@ switches_engine:
       states: [ 不拆, 扌斥 ]
     #- name: big_char_set
       #states: [ 大字集, 小字集 ]
-    - name: mars
-      reset: 0
-      states: [ 地, 煋 ] #火星文
+
     - name: exclude_seen_single
       reset: 1
       states: [ 常规, 递进 ]
@@ -105,7 +103,6 @@ switches_engine:
       - simplifier@chinese_english
       #- simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
       - simplifier@traditionalize                     # 简繁切换
-      - simplifier@mars                               #火星文
       - uniquifier
 
   ascii_composer:
@@ -284,10 +281,7 @@ opencc_config:
     tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
     tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
-  # 火星文切换
-  mars:
-    opencc_config: martian.json 
-    option_name: mars
+
     
 punctuator:
   # 标点符号
