@@ -12,9 +12,6 @@ switches_engine:
       states: [ 不拆, 扌斥 ]
     #- name: big_char_set
       #states: [ 大字集, 小字集 ]
-    - name: mars
-      reset: 0
-      states: [ 地, 煋 ] #火星文
     - name: exclude_seen_single
       reset: 1
       states: [ 常规, 递进 ]
@@ -89,7 +86,6 @@ switches_engine:
       - lua_filter@*pro_comment_format                #超级注释模块，支持错词错音提示、任意长度辅助码显示，支持个性化配置和关闭相应的功能，详情搜索pro_comment_format进行详细配置
       - lua_filter@*stick       #简码回显
       - lua_filter@*is_in_user_dict # 用户词典的词加上一个*
-      - lua_filter@*moqi.jianma_show # 当用户用全码"womf"输入“我们”时，回显简码提示"wm"
       - lua_filter@*long_word_filter                       # 长词优先（顺序要求：长词优先 > Emoji）
       - lua_filter@*moqi.exclude_seen_single_filter
       # - lua_filter@*moran_debug_filter # debug
@@ -105,7 +101,6 @@ switches_engine:
       - simplifier@chinese_english
       #- simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
       - simplifier@traditionalize                     # 简繁切换
-      - simplifier@mars                               #火星文
       - uniquifier
 
   ascii_composer:
@@ -284,11 +279,6 @@ opencc_config:
     tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
     tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
-  # 火星文切换
-  mars:
-    opencc_config: martian.json 
-    option_name: mars
-    
 punctuator:
   # 标点符号
   # punctuator 下面有三个子项：
