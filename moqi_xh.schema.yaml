@@ -236,11 +236,10 @@ emoji:
 ##   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 punctuator:
-  punctuator:
-    full_shape:
-      __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
-    half_shape:
-      __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
+  full_shape:
+    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+  half_shape:
+    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
 
 recognizer:
   # import_preset: default
