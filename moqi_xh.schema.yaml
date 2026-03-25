@@ -6,7 +6,7 @@
 schema:
   schema_id: moqi_xh
   name: 墨奇音形+小鹤双拼
-  version: "2024-05-11"
+  version: "2026-03-25"
   author:
     - gaboolic
   description: |
@@ -76,7 +76,6 @@ engine:
     - lua_translator@*lunar              # 农历
     - lua_translator@*unicode            # Unicode
     - lua_translator@*number_translator  # 数字、金额大写
-    - lua_translator@*calculator    # 计算器
     - punct_translator
     # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
     - table_translator@custom_phrase # 1、2码置顶
@@ -85,8 +84,6 @@ engine:
     - table_translator@custom_phrase_mqzg # 字根
     - table_translator@custom_phrase_super_1jian # 1、2、3码时的tab上屏词
     - table_translator@custom_phrase_super_2jian
- 
-    - table_translator@custom_phrase_super_4jian_no_conflict
     #- table_translator@big_char_set # 大字集
     - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
     - table_translator@easy_en_simp ## 添加注释后：停用单词输入
@@ -133,15 +130,6 @@ ascii_composer:
     Control_R: noop
     Caps_Lock: clear
     Eisu_toggle: clear
-
-custom_phrase_super_4jian_no_conflict:
-  dictionary: ""
-  user_dict: custom_phrase/custom_phrase_super_4jian_no_conflict
-  db_class: stabledb
-  enable_sentence: false
-  enable_completion: false
-  initial_quality: -1 #本表词和系统词重码居后
-  # initial_quality: 1 #比系统词靠后，比无词靠前  等后面4jian_no_conflict只留下成语和常用词，再改为1
 
 custom_phrase_kf:
   dictionary: ""
@@ -281,9 +269,6 @@ easy_en_simp:
   comment_format:
     - xform/^.+$//
 
-calculator:
-  trigger: V
-
 date_translator:
   date: date
   time: time
@@ -389,9 +374,8 @@ speller:
     - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况
     - derive|^(.+)[[](\w)(\w)$|$1$2| # 双拼+一位辅助码的情况
     #- derive|^(.+)[[](\w)(\w)$|$1[$2| # 双拼+[一位辅助码的情况
-    - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o或/
+    - abbrev|^(.+)[[](\w)(\w)$|$1$2$3| # 双拼+2位辅助码的情况，abbrev类型不可以整句内输入2位辅助码，必须加o
     - derive|^(.+)[[](\w)(\w)$|$1$2$3o| # 整句模式下，输入syffo 出单字 增强单字性能
-    - derive|^(.+)[[](\w)(\w)$|$1$2$3/| # 整句模式下，输入syff/ 出单字 增强单字性能
     # - derive/[[]// ## 取消注释后：直接引导2位辅助码；否则只能引导1位辅助码或者2位辅助码加/
 
     ## 飞键 可选择性开启
@@ -529,11 +513,6 @@ key_binder:
     - { when: has_menu, accept: Shift+Z, send_sequence: "{Shift+Right}z{Shift+Right}" }
 
 # 3码出简让全
-# custom_phrase_super_3jian 配置在 moqi.yaml 中定义（第 203 行）
-# custom_phrase/custom_phrase_super_3jian.txt 是超强 3 简词库源文件
-# 该文件包含常用短语的 3 码简码映射（如：rgn/ 如果你、wjd/ 我觉得、uyg/ 是一个）
-# 通过 deal_super_3jian.py 脚本生成，用于提升 3 码输入效率
-# 在 moqi.yaml 的 engine/translators 中已启用 table_translator@custom_phrase_super_3jian
 custom_phrase_3_code:
   dictionary: ""
   user_dict: custom_phrase/custom_phrase_3_code

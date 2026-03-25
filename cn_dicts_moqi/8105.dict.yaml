@@ -2539,7 +2539,7 @@ sort: by_weight
 藿	ho[cv	50
 钬	ho[jh	25
 濩	ho[dy	18
-夥	ho[gx	15
+# 夥	ho[gx	15
 嚄	ho[ky	10
 蠖	ho[iy	4
 攉	ho[fv	4
@@ -3079,7 +3079,7 @@ sort: by_weight
 橘	ju[mk	311
 车	ju[au	243
 惧	ju[xb	273
-車	ju[iu	198
+# 車	ju[iu	198
 矩	ju[uj	168
 钜	ju[jj	176
 鞠	ju[gm	137
@@ -3302,7 +3302,7 @@ sort: by_weight
 稞	ke[hg	1
 匼	ke[kk	1
 牁	ke[pk	0
-剋	kw[ud	36
+# 剋	kw[ud	36
 啃	kf[ko	3783
 肯	kf[vo	2828
 垦	kf[gt	17
@@ -4184,7 +4184,7 @@ sort: by_weight
 孟	mg[zm	981
 锰	mg[jm	696
 盟	mg[om	226
-濛	mg[du	162
+# 濛	mg[du	162
 獴	mg[qu	58
 勐	mg[zl	43
 虻	mg[iw	24
@@ -4217,7 +4217,7 @@ sort: by_weight
 眯	mi[om	89
 糜	mi[gm	83
 醚	mi[ym	78
-祕	mi[pb	36
+# 祕	mi[pb	36
 祢	mi[px	33
 弭	mi[ge	31
 麋	mi[lm	29
@@ -4313,7 +4313,7 @@ sort: by_weight
 膜	mo[od	3071
 末	mo[am	2239
 抹	mo[fw	1190
-麽	mo[gm	1141
+# 麽	mo[gm	1141
 墨	mo[lt	1010
 没	mo[du	791
 摩	mo[gu	631
@@ -4514,10 +4514,10 @@ sort: by_weight
 拧	nk[fd	1782
 宁	nk[bd	1252
 凝	nk[dz	308
-甯	nk[by	47
+# 甯	nk[by	47
 狞	nk[qd	35
 柠	nk[md	26
-苧	nk[cd	17
+# 苧	nk[cd	17
 佞	nk[rn	11
 泞	nk[dd	8
 咛	nk[kd	4
@@ -4978,7 +4978,7 @@ sort: by_weight
 遣	qm[zl	646
 潜	qm[do	461
 迁	qm[zq	496
-乾	qm[uv	298
+# 乾	qm[uv	298
 谦	qm[yj	274
 嵌	qm[uq	266
 钳	qm[jg	258
@@ -5258,7 +5258,7 @@ sort: by_weight
 却	qt[qe	119778
 缺	qt[fg	4559
 确	qt[uy	970
-卻	qt[ge	599
+# 卻	qt[ge	599
 阙	qt[mq	311
 雀	qt[xv	189
 瘸	qt[br	140
@@ -5389,7 +5389,7 @@ sort: by_weight
 弱	ro[gg	7783
 箬	ro[vk	30
 偌	ro[rk	13
-爇	ro[ch	10
+# 爇	ro[ch	10
 蒻	ro[cg	9
 鄀	ro[ce	7
 婼	ro[nk	4
@@ -5611,12 +5611,12 @@ sort: by_weight
 剩	ug[qd	1205
 绳	ug[sd	792
 笙	ug[vu	286
-昇	ug[oc	268
+# 昇	ug[oc	268
 盛	ug[im	201
 晟	ug[oi	150
 牲	ug[nu	87
 甥	ug[ul	41
-陞	ug[et	42
+# 陞	ug[et	42
 眚	ug[uo	12
 乘	ug[qr	6
 嵊	ug[ur	0
@@ -5877,7 +5877,7 @@ sort: by_weight
 溲	sz[dy	21
 瞍	sz[oy	17
 嗽	sz[kq	11
-蒐	sz[cg	10
+# 蒐	sz[cg	10
 飕	sz[fy	8
 嗾	sz[ku	6
 擞	sz[fw	4
@@ -5898,7 +5898,7 @@ sort: by_weight
 谡	su[yw	31
 愫	su[xx	30
 夙	su[jd	27
-甦	su[gu	21
+# 甦	su[gu	21
 涑	su[du	10
 窣	su[bu	7
 骕	su[mb	5
@@ -6005,7 +6005,7 @@ sort: by_weight
 鲐	td[yk	11
 骀	td[mk	10
 邰	td[se	9
-薹	td[ct	7
+# 薹	td[ct	7
 酞	td[yt	3
 跆	td[zk	3
 炱	td[sh	3
@@ -6446,7 +6446,7 @@ sort: by_weight
 巍	ww[ug	23
 嵬	ww[ug	20
 猬	ww[qo	19
-薳	ww[cy	18
+# 薳	ww[cy	18
 鳚	ww[yc	16
 潍	ww[dv	12
 亹	ww[wq	11
@@ -6636,7 +6636,7 @@ sort: by_weight
 嬉	xi[nk	67
 豨	xi[uj	64
 烯	xi[hj	63
-釐	xi[wl	61
+# 釐	xi[wl	61
 隰	xi[eh	43
 羲	xi[yk	39
 郤	xi[ge	40
@@ -6976,7 +6976,7 @@ sort: by_weight
 羞	xq[yi	276
 袖	xq[py	243
 咻	xq[km	140
-脩	xq[ro	50
+# 脩	xq[ro	50
 岫	xq[uy	41
 朽	xq[mk	41
 髹	xq[em	38
@@ -7661,7 +7661,7 @@ sort: by_weight
 于	yu[au	65294
 鱼	yu[da	9758
 宇	yu[by	518
-於	yu[fd	5932
+# 於	yu[fd	5932
 欲	yu[gq	4906
 语	yu[yk	4611
 雨	yu[ad	3872
@@ -7968,7 +7968,7 @@ sort: by_weight
 闸	va[mj	199
 诈	va[yv	192
 眨	va[of	163
-吒	va[kq	94
+# 吒	va[kq	94
 栅	va[mc	92
 咤	va[kq	74
 铡	va[jd	59
@@ -8200,7 +8200,7 @@ sort: by_weight
 秩	vi[hf	166
 旨	vi[bo	156
 侄	vi[rt	146
-徵	vi[rw	112
+# 徵	vi[rw	112
 祗	vi[pu	95
 栀	vi[mv	83
 芷	vi[cv	83

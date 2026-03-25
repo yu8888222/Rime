@@ -54,7 +54,6 @@ switches_engine:
       - lua_translator@*lunar              # 农历
       - lua_translator@*unicode            # Unicode
       - lua_translator@*number_translator  # 数字、金额大写
-      - lua_translator@*calculator    # 计算器
       - punct_translator
       # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
       - table_translator@custom_phrase # 1、2码置顶
@@ -63,9 +62,6 @@ switches_engine:
       - table_translator@custom_phrase_mqzg # 字根
       - table_translator@custom_phrase_super_1jian # 1、2、3码时的tab上屏词
       - table_translator@custom_phrase_super_2jian
-      # - table_translator@custom_phrase_super_3jian # 注释掉 3 码超强词库
- 
-      - table_translator@custom_phrase_super_4jian_no_conflict
       #- table_translator@big_char_set # 大字集
       - table_translator@emojis ## 添加注释后：停用ae模式emoji输入
       - table_translator@easy_en_simp ## 添加注释后：停用单词输入
@@ -122,11 +118,11 @@ octagram:
   enable_for_sentence:
     __patch:
       grammar:
-        # language: fcitx-zh-hans # 小企鹅模型
+        language: fcitx-zh-hans # 小企鹅模型
         # language: zh-hans-t-huayu-v7-bgw # 华宇模型
         # language: zh-hans-wiki-202405 # 维基模型
         # language: zh-hans-t-essay-bgw # rime官方模型
-        # language: zhs-moqi # 墨奇训练的模型 聊胜于无
+        #language: zhs-moqi # 墨奇训练的模型 聊胜于无
         collocation_max_length: 2
         collocation_min_length: 1
         # non_collocation_penalty: -24
@@ -144,19 +140,6 @@ phrase:
     enable_completion: false
     enable_sentence: false
     initial_quality: 100000
-
-  # 无冲突的3简
-
-
-  # 无冲突的4简
-  custom_phrase_super_4jian_no_conflict:
-    dictionary: ""
-    user_dict: custom_phrase/custom_phrase_super_4jian_no_conflict
-    db_class: stabledb
-    enable_sentence: false
-    enable_completion: false
-    initial_quality: -1 #本表词和系统词重码居后
-    # initial_quality: 1 #比系统词靠后，比无词靠前  等后面4jian_no_conflict只留下成语和常用词，再改为1
 
   # 快符
   custom_phrase_kf:
@@ -193,17 +176,6 @@ phrase:
     enable_sentence: false
     enable_completion: false
     initial_quality: -1 #本表词和系统词重码居后
-
-  # 超强tab 3码
-  # custom_phrase_super_3jian:
-  #   dictionary: ""
-  #   user_dict: custom_phrase/custom_phrase_super_3jian
-  #   db_class: stabledb
-  #   enable_sentence: false
-  #   enable_completion: false
-  #   initial_quality: -1 #本表词和系统词重码居后
-
-
 
 reverse:
   reverse_moqima:
@@ -331,10 +303,6 @@ guide:
       - xform/^.+$//
       
 
-
-  # 计算器触发关键字
-  calculator:
-    trigger: V
 
   # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
   date_translator:

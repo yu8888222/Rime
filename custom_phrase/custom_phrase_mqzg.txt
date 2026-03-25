@@ -68,7 +68,7 @@
 屯	obt	95
 太	obt	94
 讠	oby	101
-訁	oby	100
+# 訁	oby	100
 𧘇	oby	99
 鱼	oby	98
 𦍌	oby	97
@@ -89,7 +89,7 @@
 义	oby	82
 曳	oby	81
 饣	obu	101
-飠	obu	100
+# 飠	obu	100
 龵	obu	99
 𠂇	obu	98
 𣥂	obu	97
@@ -123,7 +123,7 @@
 丑	obi	87
 出	obi	86
 串	obi	85
-車	obi	84
+# 車	obi	84
 丞	obi	83
 ⺝	obo	100
 ⺼	obo	99
@@ -152,7 +152,7 @@
 乛	oba	97
 凹	oba	96
 纟	obs	105
-糹	obs	104
+# 糹	obs	104
 厶	obs	100
 龴	obs	99
 巳	obs	98
@@ -225,7 +225,7 @@
 灬	obh	100
 虍	obh	99
 彑	obh	98
-戶	obh	97
+# 戶	obh	97
 互	obh	96
 户	obh	95
 禾	obh	94
@@ -233,7 +233,7 @@
 黄	obh	92
 乎	obh	91
 钅	obj	101
-釒	obj	100
+# 釒	obj	100
 龹	obj	99
 丩	obj	98
 巾	obj	97
