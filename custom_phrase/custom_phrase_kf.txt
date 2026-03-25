@@ -18,7 +18,8 @@
 %	ob
 *	ox
 ：	om
-、	od
+、	od	4
+，	od	3
 ；	of
 （	ok	4
 ）	ok	2
@@ -26,15 +27,16 @@
 》	oi
 "	oy	
 _	oh
+。	oj
 
 标点d	ofb
 
 
 
 单位w	ofd	99
-㎎	ofdw	100
-㎏	ofdw	99
-㎜	ofdw	98
+ g�	ofdw	99
+㎡	ofdw	98
+ ³	ofdw	97
 ㎝	ofdw	97
 ㎞	ofdw	96
 ㎡	ofdw	95
