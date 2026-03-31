@@ -116,9 +116,7 @@ engine:
     - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
     - simplifier@chaifen
     - simplifier@chaifen_all
-    - simplifier@chinese_english
     #- simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
-    # - simplifier@traditionalize                     # 简繁切换
     - uniquifier
 
 ascii_composer:
@@ -203,25 +201,12 @@ chaifen_all:
   tips: char
   show_in_comment: true
   comment_format:
-    - "xform/	/ /"
-
-chinese_english:
-  option_name: chinese_english
-  opencc_config: chinese_english.json
-  tips: char
-  comment_format:
-    - "xform/-/ /"
+    - "xform/\t/ /"
 
 emoji:
   option_name: emoji
   opencc_config: emoji.json
   inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
-
-## traditionalize:
-##   option_name: traditionalization
-##   opencc_config: s2t.json  # s2t.json | s2hk.json | s2tw.json | s2twp.json
-##   tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
-##   tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
 
 punctuator:
   full_shape:
@@ -467,7 +452,6 @@ key_binder:
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
-    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
