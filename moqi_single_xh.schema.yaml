@@ -10,7 +10,7 @@ schema:
   author:
     - gaboolic
   description: |
-    墨奇顶屏版，4码自动上屏 只收录了8000字 https://github.com/gaboolic/rime-shuangpin-fuzhuma/wiki/%E5%A2%A8%E5%A5%87%E7%A0%81%E6%8B%86%E5%88%86%E8%A7%84%E5%88%99
+    墨奇顶屏版，4码自动上8000字 
   dependencies:
     - reverse_moqima
     - radical_flypy
@@ -41,7 +41,7 @@ engine:
   
       - affix_segmentor@verbatim ## not as the last of this list
       - affix_segmentor@easy_en_simp
-      - affix_segmentor@jp_sela
+
       - fallback_segmentor
     translators:
       - punct_translator
@@ -51,10 +51,8 @@ engine:
       - table_translator@custom_phrase_mqzg
       - table_translator@custom_phrase_super_1jian
       - table_translator@custom_phrase_super_2jian
-      
-      - table_translator@custom_phrase_super_3jian_no_conflict
-      - table_translator@custom_phrase_super_4jian_no_conflict
-      #- table_translator@big_char
+     
+  
       - reverse_lookup_translator
       - reverse_lookup_translator@reverse_moqima
       - reverse_lookup_translator@radical_flypy
@@ -68,7 +66,7 @@ engine:
      
       - lua_translator@*unicode            # Unicode
       - lua_translator@*number_translator  # 数字、金额大写
-      - lua_translator@*calculator    # 计算器
+
     filters:
       # tab置顶词回显在第一个comment中
       - lua_filter@*stick 
@@ -77,8 +75,7 @@ engine:
       - simplifier@chaifen
       - simplifier@chaifen_all
       - simplifier@chinese_english
-      - simplifier@traditionalize                     # 简繁切换
-      - simplifier@mars                               #火星文
+#火星文
       - uniquifier
 
 __include: moqi.yaml:/phrase # 置顶
