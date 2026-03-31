@@ -74,13 +74,10 @@ engine:
    
       - simplifier@chaifen
       - simplifier@chaifen_all
-      - simplifier@chinese_english
-#火星文
       - uniquifier
 
 __include: moqi.yaml:/phrase # 置顶
 __include: moqi.yaml:/reverse #反查配置
-__include: moqi.yaml:/opencc_config # 拆分 英汉互译 火星文
 __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
 
@@ -224,7 +221,6 @@ key_binder:
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
-    - { when: has_menu, accept: "Control+e", toggle: chinese_english }
 
 
     - { match: "[a-z]{1,3}", accept: Tab,  send_sequence: "/1" }
