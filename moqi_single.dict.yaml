@@ -183,28 +183,29 @@ import_tables:
 宝	bcb
 抱	bcfb
 薄	bcc
-堡	bcrt
-曝	bco
+# 不常用字
+# 堡	bcrt
+# 曝	bco
 饱	bcu
-煲	bcrh
-剥	bce
-鲍	bcy
+# 煲	bcrh
+# 剥	bce
+# 鲍	bcy
 暴	bcou
-豹	bcv
-刨	bcbd
-褒	bcym
-胞	bcob
-葆	bccm
-苞	bccb
-鸨	bcbn
+# 豹	bcv
+# 刨	bcbd
+# 褒	bcym
+# 胞	bcob
+# 葆	bccm
+# 苞	bccb
+# 鸨	bcbn
 炮	bchb
-雹	bcyb
-孢	bcz
-枹	bcm
-龅	bcvb
-趵	bczu
-褓	bcp
-瀑	bcd
+# 雹	bcyb
+# 孢	bcz
+# 枹	bcm
+# 龅	bcvb
+# 趵	bczu
+# 褓	bcp
+# 瀑	bcd
 白	bd
 摆	bdf
 拜	bdu
