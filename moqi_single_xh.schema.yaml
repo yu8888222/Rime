@@ -157,7 +157,7 @@ speller:
     
 
 translator:
-  dictionary: moqi.extended
+  dictionary: moqi_single
   enable_completion: false
   db_class: tabledb
   enable_charset_filter: false
