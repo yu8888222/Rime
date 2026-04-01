@@ -49,16 +49,17 @@ import_tables:
 你	n
 吗	m
 阿	aa
-吖	aak
-锕	aaj
-腌	aao
+# 不常用字
+# 吖	aak
+# 锕	aaj
+# 腌	aao
 昂	ah
-卬	ahp
-盎	ahy
-肮	aho
+# 卬	ahp
+# 盎	ahy
+# 肮	aho
 爱	ai
 哎	aik
-唉	aiku
+# 唉	aiku
 挨	aif
 癌	aib
 矮	aiu
@@ -66,69 +67,71 @@ import_tables:
 哀	aiy
 埃	ait
 碍	aiuc
-欸	ais
-砹	aiux
+# 欸	ais
+# 砹	aiux
 隘	aie
-瑷	aiw
+# 瑷	aiw
 暧	aio
-毐	aitm
-嗳	aiky
+# 毐	aitm
+# 嗳	aiky
 蔼	aicr
-锿	aij
+# 锿	aij
 霭	aiyr
-嗌	aikm
-叆	aiyy
-嫒	ain
+# 嗌	aikm
+# 叆	aiyy
+# 嫒	ain
 皑	aibj
 按	an
 安	anb
 案	anbm
 俺	anr
 暗	ano
-氨	anq
-胺	anon
-庵	ang
+# 不常用字
+# 氨	anq
+# 胺	anon
+# 庵	ang
 岸	anu
-鞍	angn
-黯	anl
-铵	anj
-桉	anm
-唵	ank
-谙	any
-埯	ant
-盦	anrm
-垵	antn
-犴	anqg
-鹌	and
-𩽾	anyn
-奥	ao
+# 鞍	angn
+# 黯	 anl
+# 铵	anj
+# 桉	anm
+# 唵	ank
+# 谙	any
+# 埯	ant
+# 盦	anrm
+# 垵	antn
+# 犴	anqg
+# 鹌	and
+# 𩽾	anyn
+奥	 ao
 熬	aof
-嗷	aok
-凹	aol
+# 不常用字
+# 嗷	aok
+# 凹	aol
 澳	aod
 傲	aor
-敖	aofw
-鳌	aofy
+# 敖	aofw
+# 鳌	aofy
 袄	aop
-螯	aofi
-拗	aofl
-坳	aot
-獒	aofq
-媪	aon
-岙	aoy
-翱	aob
-遨	aoz
-鏊	aofj
-薁	aoc
+# 螯	aofi
+# 拗	aofl
+# 坳	aot
+# 獒	aofq
+# 媪	aon
+# 岙	aoy
+# 翱	aob
+# 遨	 aoz
+# 鏊	aofj
+# 薁	aoc
 懊	aox
-璈	aow
-鏖	aolj
-骜	aofm
-隩	aoe
-聱	aofe
-奡	aobl
-廒	aog
-嶅	aofu
+# 璈	aow
+# 鏖	aolj
+# 骜	aofm
+# 隩	aoe
+# 聱	aofe
+# 奡	aobl
+# 廒	aog
+# 嶅	aofu
 把	ba
 八	bap
 扒	bafb
@@ -7682,7 +7685,7 @@ import_tables:
 歅	ybxq
 䲟	ybye
 𬘡	ybs
-𬤇	ybyt
+# 𬤇	ybyt
 𬮱	ybmt
 要	yc
 药	ycc
