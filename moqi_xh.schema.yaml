@@ -286,7 +286,7 @@ add_user_dict:
   user_dict: user.custom.dict
   db_class: tabledb
   enable_charset_filter: false # 是否开启字符集过滤
-  enable_completion: true # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
+  enable_completion: false # 提前显示尚未输入完整码的字〔仅 table_translator 有效〕
   enable_encoder: true # 是否开启自动造词〔仅 table_translator 有效〕
   enable_sentence: true #  是否开启自动造句
   enable_user_dict: true # 是否开启用户词典
