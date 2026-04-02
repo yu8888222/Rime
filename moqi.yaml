@@ -81,7 +81,6 @@ switches_engine:
       - lua_filter@*reduce_emoji_filter   # 按需启用，作用是降低Emoji在候选项中的位置排序(顺序要求：Emoji > 降低排序)
       - simplifier@chaifen
       - simplifier@chaifen_all
-      - simplifier@chinese_english
       #- simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
       - simplifier@traditionalize                     # 简繁切换
       - uniquifier
@@ -183,14 +182,6 @@ opencc_config:
     show_in_comment: true
     comment_format:
       - "xform/	/ /"
-
-  #中文转英文
-  chinese_english:
-    option_name: chinese_english
-    opencc_config: chinese_english.json
-    tips: char
-    comment_format:
-      - "xform/-/ /"
 
 
   # Emoji
