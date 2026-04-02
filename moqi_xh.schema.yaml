@@ -67,7 +67,6 @@ engine:
      # lua翻译器
     - lua_translator@*date_translator    # 时间、日期、星期
     - lua_translator@*lunar              # 农历
-    - lua_translator@*unicode            # Unicode
     - lua_translator@*number_translator  # 数字、金额大写
     - punct_translator
     # 码表翻译器 用于仓颉、五笔等基于码表的输入方案
@@ -187,7 +186,6 @@ recognizer:
 
     emojis: "^ae[a-z]*'?$" # "^ae.*$" 
 
-    unicode: "^U[a-f0-9]+"
     number: "^R[0-9]+[.]?[0-9]*"
     gregorian_to_lunar: "^N[0-9]{1,8}"
 

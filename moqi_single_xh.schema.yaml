@@ -64,7 +64,7 @@ engine:
     
       - table_translator@easy_en_simp ## 添加注释后：停用单词输入
      
-      - lua_translator@*unicode            # Unicode
+
       - lua_translator@*number_translator  # 数字、金额大写
 
     filters:
