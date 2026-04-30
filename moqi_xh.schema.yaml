@@ -33,7 +33,7 @@ switches:
   #- name: big_char_set
     #states: [ 大字集, 小字集 ]
   - name: exclude_seen_single
-    reset: 1
+    reset: 2
     states: [ 常规, 递进 ]
   - name: ascii_punct
     states: [ 。，, ．， ]
