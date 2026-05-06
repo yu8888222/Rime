@@ -17,7 +17,15 @@ schema:
     #- stroke
   
 
-__include: moqi.yaml:/switches_engine
+switches:
+  - name: ascii_mode
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: chaifen
+    states: [ 不拆, 扌斥 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
 
 engine:
     processors:
@@ -72,9 +80,9 @@ engine:
       - uniquifier
 
 __include: moqi.yaml:/phrase # 置顶
-__include: moqi.yaml:/reverse #反查配置
 __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
+__include: moqi.yaml:/opencc_config # 拆分配置
 
 speller:
   popping:
