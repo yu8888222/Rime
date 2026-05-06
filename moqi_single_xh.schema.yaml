@@ -6,11 +6,11 @@
 schema:
   schema_id: moqi_single_xh
   name: 顶屏版
-  version: "2024-05-11"
+  version: "2026-05-06"
   author:
-    - gaboolic
+    - xiaoyu
   description: |
-    墨奇顶屏版，4码自动上8000字 
+    墨奇，4码自动上8000字 
   dependencies:
     - reverse_moqima
     - radical_flypy
