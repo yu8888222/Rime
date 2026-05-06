@@ -74,7 +74,7 @@ engine:
       # tab置顶词回显在第一个comment中
       - lua_filter@*stick 
       #- lua_filter@*long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
-   
+      
       - simplifier@chaifen
       - simplifier@chaifen_all
       - uniquifier
@@ -234,6 +234,16 @@ key_binder:
     #- { when: composing, accept: Control+2, send_sequence: '{Home}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+3, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}[' }
     #- { when: composing, accept: Control+4, send_sequence: '{Home}{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}[' }
+
+ascii_composer:
+  good_old_caps_lock: true
+  switch_key:
+    Shift_L: commit_code
+    Shift_R: commit_code
+    Control_L: noop
+    Control_R: noop
+    Caps_Lock: clear
+    Eisu_toggle: clear
 
 menu:
   page_size: 5
