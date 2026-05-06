@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	731
+#@/tick	790
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -18,26 +18,26 @@
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 个锐	ge rv[jx	2
-鸽钟	ge[rn vs[jv	264
+鸽钟	ge[rn vs[jv	270
 鸽主	ge[rn vu[wt	100
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
-鸽友	ge[rn yz[uy	12
+鸽友	ge[rn yz[uy	16
 广	gl[di	0
-公棚	gs[bs pg[mo	562
+公棚	gs[bs pg[mo	594
 公棚端	gs[bs pg[mo dr	4
-公棚端	gs[bs pg[mo dr[le	2
+公棚端	gs[bs pg[mo dr[le	6
 公棚下	gs[bs pg[mo xx	6
 号	hc[kk	0
 海港	hd[dm gh[ds	0
-海港城	hd[dm gh[ds ig[ti	4
-查棚	ia[md pg[mo	28
+海港城	hd[dm gh[ds ig[ti	14
+查棚	ia[md pg[mo	42
 程洋	ig[hw yh[dy	10
 城	ig[ti	0
 进	jb[zj	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
-集鸽	ji[rm ge[rn	368
+集鸽	ji[rm ge[rn	386
 集鸽结束	ji[rm ge[rn jp[sk uu[gr	4
-集鸽器	ji[rm ge[rn qi[kk	326
+集鸽器	ji[rm ge[rn qi[kk	354
 集鸽缺	ji[rm ge[rn qt[fg	2
 吉	ji[tk	0
 吉云一道	ji[tk yy yi[aa dc[zz	2
@@ -46,7 +46,7 @@
 捷效	jp[fz xn[ww	2
 结束	jp[sk uu[gr	0
 结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
-嘉立创	jx[tk li[wb il[rd	38
+嘉立创	jx[tk li[wb il[rd	42
 立创	li[wb il[rd	2
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0
@@ -56,7 +56,7 @@
 排针	pd[ff vf[ju	2
 普汇云通	pu[bo hv[dk yy[ag ts[zy	2
 清水	qk[do uv[ln	0
-清水蓝湾	qk[do uv[ln lj[cm wj[dg	6
+清水蓝湾	qk[do uv[ln lj[cm wj[dg	10
 钱盆网	qm[jj pf[fm wh[kx	8
 缺	qt[fg	0
 去	qu	0
@@ -64,7 +64,7 @@
 锐	rv[jx	0
 赛管锐	sd gr rv[jx	2
 赛格	sd[bb ge[mk	0
-赛格锐	sd[bb ge[mk rv[jx	200
+赛格锐	sd[bb ge[mk rv[jx	202
 司放	si[vk fh	16
 天津	tm[ad jb[dy	0
 天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
@@ -93,7 +93,7 @@
 下面	xx[ab mm[ao	0
 训放	xy[yi fh	8
 银豆网	yb[jg dz[ab wh[kx	4
-央智眼	yh[kr vi[uo yj[og	48
+央智眼	yh[kr vi[uo yj[og	50
 一道	yi[aa dc[zz	0
 一曲	yi[aa qu[kc	0
 闫	yj[ms	0
@@ -103,5 +103,5 @@
 有上笼	yz uh ls[vl	4
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
-足环	zu[kz hr[wb	18
-足环号	zu[kz hr[wb hc[kk	10
+足环	zu[kz hr[wb	20
+足环号	zu[kz hr[wb hc[kk	12
