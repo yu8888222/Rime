@@ -15,8 +15,6 @@ schema:
     - reverse_moqima
     - radical_flypy
     #- stroke
-    
-    - easy_en
   
 
 __include: moqi.yaml:/switches_engine
@@ -40,7 +38,6 @@ engine:
       - punct_segmentor
   
       - affix_segmentor@verbatim ## not as the last of this list
-      - affix_segmentor@easy_en_simp
 
       - fallback_segmentor
     translators:
@@ -62,8 +59,6 @@ engine:
       - lua_translator@*date_translator    # 时间、日期、星期
       - lua_translator@*lunar              # 农历
     
-      - table_translator@easy_en_simp ## 添加注释后：停用单词输入
-     
 
       - lua_translator@*number_translator  # 数字、金额大写
 
