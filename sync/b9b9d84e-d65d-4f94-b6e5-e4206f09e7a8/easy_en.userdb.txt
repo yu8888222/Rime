@@ -1,0 +1,10 @@
+# Rime user dictionary
+#@/db_name	easy_en
+#@/db_type	userdb
+#@/rime_version	1.13.0
+#@/tick	8
+#@/user_id	b9b9d84e-d65d-4f94-b6e5-e4206f09e7a8
+assets 	assets	c=1 d=1 t=8
+false 	false	c=3 d=2.97017 t=7
+pro 	pro	c=2 d=1.98506 t=7
+true 	true	c=2 d=1.99005 t=7
