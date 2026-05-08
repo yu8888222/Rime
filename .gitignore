@@ -12,6 +12,7 @@ installation.yaml
 user.yaml
 trash/
 *.custom.yaml1
+*.custom.yaml
 
 sync/**
 !sync/**/
