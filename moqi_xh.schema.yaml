@@ -8,7 +8,7 @@ schema:
   name: 墨奇音形+小鹤双拼
   version: "2026-03-25"
   author:
-    - gaboolic
+    - xiaoyu
   description: |
     墨奇辅助码 鹤拼  
   dependencies:
@@ -27,8 +27,8 @@ switches:
   #   states: [ 简, 繁 ]
   - name: chaifen
     states: [ 不拆, 扌斥 ]
-  #- name: big_char_set
-    #states: [ 大字集, 小字集 ]
+  - name: big_char_set
+    states: [ 小字集, 大字集 ]
   - name: exclude_seen_single
     reset: 2
     states: [ 常规, 递进 ]
@@ -78,6 +78,7 @@ engine:
    
     # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案
     - script_translator
+    - table_translator@uncommon_words
     - script_translator@user_dict_set
     - script_translator@add_user_dict
     
@@ -94,7 +95,7 @@ engine:
 
     - simplifier@chaifen
     - simplifier@chaifen_all
-    #- simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
+    - simplifier@big_char_set # 一定要放到traditionalize之前，否则当traditionalize是繁体时，会被该过滤器把繁体字过滤掉，从而无法输入繁体字
     - uniquifier
 
 ascii_composer:
@@ -155,6 +156,13 @@ chaifen_all:
   comment_format:
     - "xform/\t/ /"
 
+big_char_set:
+  option_name: big_char_set
+  states:
+    - 小字集
+    - 大字集
+
+
 punctuator:
   full_shape:
     __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
@@ -185,7 +193,7 @@ date_translator:
 lunar: anl
 
 limit_word_filter:
-  max_words: 1
+  max_words: 5
 
 long_word_filter:
   count: 2
@@ -369,7 +377,7 @@ key_binder:
     - { when: composing, accept: Control+o, send: Shift+Left }
 
     # 大小字集切换
-    #- { when: has_menu, accept: "Control+u", toggle: big_char_set }
+    - { when: has_menu, accept: "Control+u", toggle: big_char_set }
     # 显示墨奇码拆分的快速开关
     - { when: has_menu, accept: "Control+p", toggle: chaifen }
     - { when: has_menu, accept: "Control+l", toggle: chaifen_all }
@@ -435,3 +443,8 @@ custom_phrase:
 
 menu:
   page_size: 5
+
+uncommon_words:
+  dictionary: "cn_dicts_moqi/8105.uncommon"
+  initial_quality: 1
+  comment: "〔罕见〕"
