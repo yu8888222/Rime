@@ -1,0 +1,107 @@
+# Rime table
+#@/db_name	user.custom.dict
+#@/db_type	tabledb
+#@/rime_version	1.11.2
+#@/tick	784
+保而防	bc[rm er fh[ef	6
+百图胜	bd[ab tu ug[ou	2
+本	bf	0
+本公棚	bf gs[bs pg[mo	2
+绑环	bh[se hr[wb	6
+北上	bw[lb uh[ba	0
+北上广	bw[lb uh[ba gl[di	2
+电话	dm[ov hx[yu	0
+端	dr	0
+端	dr[le	0
+都是	dz[le ui[oz	0
+都是水	dz[le ui[oz uv[ln	2
+非	fw[ls	0
+非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
+个锐	ge rv[jx	2
+鸽钟	ge[rn vs[jv	266
+鸽主	ge[rn vu[wt	100
+鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
+鸽友	ge[rn yz[uy	16
+广	gl[di	0
+公棚	gs[bs pg[mo	588
+公棚端	gs[bs pg[mo dr	4
+公棚端	gs[bs pg[mo dr[le	6
+公棚下	gs[bs pg[mo xx	6
+号	hc[kk	0
+海港	hd[dm gh[ds	0
+海港城	hd[dm gh[ds ig[ti	12
+查棚	ia[md pg[mo	42
+程洋	ig[hw yh[dy	10
+城	ig[ti	0
+进	jb[zj	0
+集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
+集鸽	ji[rm ge[rn	386
+集鸽结束	ji[rm ge[rn jp[sk uu[gr	4
+集鸽器	ji[rm ge[rn qi[kk	348
+集鸽缺	ji[rm ge[rn qt[fg	2
+吉	ji[tk	0
+吉云一道	ji[tk yy yi[aa dc[zz	2
+脚针	jn[oe vf[ju	6
+揭效	jp[fr xn[ww	2
+捷效	jp[fz xn[ww	2
+结束	jp[sk uu[gr	0
+结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
+嘉立创	jx[tk li[wb il[rd	42
+立创	li[wb il[rd	2
+蓝	lj[cm	0
+连续	lm[zi xu[sd	0
+连续集鸽	lm[zi xu[sd ji[rm ge[rn	2
+那个	na[ve ge[rl	0
+那个公棚下面	na[ve ge[rl gs[bs pg[mo xx[ab mm[ao	2
+排针	pd[ff vf[ju	2
+普汇云通	pu[bo hv[dk yy[ag ts[zy	2
+清水	qk[do uv[ln	0
+清水蓝湾	qk[do uv[ln lj[cm wj[dg	10
+钱盆网	qm[jj pf[fm wh[kx	8
+缺	qt[fg	0
+去	qu	0
+去公棚	qu gs[bs pg[mo	2
+锐	rv[jx	0
+赛管锐	sd gr rv[jx	2
+赛格	sd[bb ge[mk	0
+赛格锐	sd[bb ge[mk rv[jx	202
+司放	si[vk fh	16
+天津	tm[ad jb[dy	0
+天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
+同学	ts[kk xt[xz	0
+啥	ua	0
+啥公棚	ua gs[bs pg[mo	2
+上	uh	0
+上笼	uh ls[vl	18
+上一曲	uh yi[aa qu[kc	4
+水	uv[ln	0
+这么大	ve[zw me[ps da[ar	0
+主	vu	0
+主集鸽器	vu ji[rm ge[rn qi[kk	2
+主	vu[wt	0
+主集鸽器	vu[wt ji[rm ge[rn qi[kk	4
+万科	wj[av ke[hd	0
+万科海港城	wj[av ke[hd hd[dm gh[ds ig[ti	2
+湾	wj[dg	0
+无效	wu[ay xn[ww	0
+无效足环	wu[ay xn[ww zu[kz hr[wb	2
+微雪	ww[rj xt[ye	12
+小	xn[lb	0
+小闫同学	xn[lb yj[ms ts[kk xt[xz	4
+下	xx	0
+下一曲	xx yi[aa qu[kc	2
+下面	xx[ab mm[ao	0
+训放	xy[yi fh	8
+银豆网	yb[jg dz[ab wh[kx	4
+央智眼	yh[kr vi[uo yj[og	50
+一道	yi[aa dc[zz	0
+一曲	yi[aa qu[kc	0
+闫	yj[ms	0
+羽色	yu[xx se	2
+云	yy	0
+有	yz	0
+有上笼	yz uh ls[vl	4
+在	zd	0
+在公棚	zd gs[bs pg[mo	2
+足环	zu[kz hr[wb	20
+足环号	zu[kz hr[wb hc[kk	12
