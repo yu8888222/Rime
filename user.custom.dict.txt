@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	790
+#@/tick	791
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -85,7 +85,7 @@
 湾	wj[dg	0
 无效	wu[ay xn[ww	0
 无效足环	wu[ay xn[ww zu[kz hr[wb	2
-微雪	ww[rj xt[ye	12
+微雪	ww[rj xt[ye	14
 小	xn[lb	0
 小闫同学	xn[lb yj[ms ts[kk xt[xz	4
 下	xx	0
