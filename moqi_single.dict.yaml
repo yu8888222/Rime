@@ -101,7 +101,6 @@ import_tables:
 垵	antn
 犴	anqg
 鹌	and
-𩽾	anyn
 奥	ao
 熬	aof
 嗷	aok
@@ -258,7 +257,6 @@ import_tables:
 玤	bhw
 蒡	bhc
 塝	bht
-𠳐	bhk
 比	bi
 笔	biv
 逼	biz
@@ -356,7 +354,6 @@ import_tables:
 昄	bjo
 湴	bjd
 靽	bjg
-𨭉	bjwj
 并	bk
 病	bkb
 兵	bkq
@@ -374,7 +371,6 @@ import_tables:
 槟	bkmb
 邴	bkbe
 栟	bkmk
-𰻝	bl
 便	bm
 边	bmz
 变	bmw
@@ -402,7 +398,6 @@ import_tables:
 忭	bmxb
 碥	bmuc
 褊	bmp
-𨚕	bmse
 表	bn
 标	bnm
 婊	bnn
@@ -474,19 +469,20 @@ import_tables:
 饽	bouz
 礴	bouc
 欂	bomc
-𬭛	bojp
 别	bp
 憋	bpx
 鳖	bpxy
 瘪	bpb
 蹩	bpxz
 癿	bpbv
-不	bu
+# 不	bu
 部	bul
 补	bup
-步	buv
+# 步	buv
+步	bu
 布	buu
-簿	buvc
+# 簿	buvc
+簿	buv
 钚	buj
 捕	buf
 卜	buld
@@ -502,7 +498,6 @@ import_tables:
 醭	buy
 埔	butf
 埗	butu
-𬷕	bufn
 被	bw
 背	bwb
 倍	bwr
@@ -535,7 +530,6 @@ import_tables:
 臂	bwuo
 鐾	bwuj
 鞁	bwgp
-𬇙	bwd
 擦	ca
 嚓	cak
 草	cc
@@ -551,7 +545,6 @@ import_tables:
 肏	ccr
 艚	ccv
 螬	cci
-𥕢	ccu
 才	cd
 菜	cdc
 踩	cdz
@@ -610,7 +603,6 @@ import_tables:
 佽	cirq
 鹚	cibn
 莿	cicd
-𫚖	civy
 惨	cj
 餐	cjd
 残	cjdj
@@ -622,7 +614,6 @@ import_tables:
 惭	cjx
 璨	cjw
 黪	cjl
-䅟	cjhp
 错	co
 搓	cof
 挫	cofr
@@ -654,9 +645,9 @@ import_tables:
 丛	csr
 琮	csw
 悰	csx
-骢	csm
-枞	csmr
-璁	cswx
+# 骢	csm
+# 枞	csmr
+# 璁	cswx
 淙	csd
 熜	csh
 囱	csp
@@ -688,7 +679,6 @@ import_tables:
 漼	cvdv
 缞	cvs
 榱	cvmv
-𤭢	cw
 寸	cy
 存	cyu
 村	cym
@@ -720,8 +710,6 @@ import_tables:
 褡	dap
 荙	dac
 鿎	daud
-𨱏	daj
-𫟼	dajd
 到	dc
 道	dcz
 刀	dcv
@@ -801,8 +789,6 @@ import_tables:
 菪	dhcu
 垱	dht
 筜	dhv
-𣗋	dhmx
-𬍡	dhd
 地	di
 第	div
 低	dir
@@ -852,10 +838,6 @@ import_tables:
 蹢	dizg
 的	dibu
 玓	diwu
-䃅	diuu
-䗖	dii
-𤧛	diwj
-𬱖	diyy
 但	dj
 单	djb
 蛋	djz
@@ -876,7 +858,6 @@ import_tables:
 耽	dje
 儋	djr
 聃	djer
-# 殚	djdu
 箪	djv
 憺	djxk
 膻	djod
@@ -887,8 +868,6 @@ import_tables:
 赕	djbh
 郸	djbe
 疸	djbd
-𫢸	djru
-𬘘	djs
 定	dk
 顶	dkd
 丁	dka
@@ -974,7 +953,6 @@ import_tables:
 剟	doy
 裰	dop
 饳	doui
-㙍	doty
 跌	dp
 爹	dpf
 叠	dpy
@@ -993,7 +971,6 @@ import_tables:
 绖	dps
 楪	dpm
 蹀	dpzm
-𫶇	dpuj
 丢	dq
 铥	dqj
 端	dr
@@ -1027,7 +1004,6 @@ import_tables:
 岽	dsud
 垌	dst
 胨	dsod
-𬟽	dsi
 度	du
 读	duy
 都	dul
@@ -1054,7 +1030,6 @@ import_tables:
 芏	duc
 黩	duld
 髑	dugi
-𬭊	dujt
 对	dv
 队	dve
 怼	dvy
@@ -1062,7 +1037,6 @@ import_tables:
 兑	dvb
 碓	dvu
 祋	dvp
-㨃	dvf
 得	dw
 嘚	dwk
 嗲	dx
@@ -1135,16 +1109,16 @@ import_tables:
 姶	eenk
 苊	eecv
 堨	eet
-𥔲	eeuk
-𫫇	eekx
 嗯	eg
 诶	ei
 欸	eis
-嗯	en
-恩	eny
+# 嗯	en
+# 恩	eny
+恩	en
 摁	enf
 蒽	enc
-儿	er
+儿	erp
+而	er
 二	era
 耳	ero
 尔	erd
@@ -1153,21 +1127,22 @@ import_tables:
 迩	erz
 铒	erj
 珥	erw
-鸸	ere
+# 鸸	ere
 洱	erde
-鲕	erye
+# 鲕	erye
 耏	erep
-陑	eree
-咡	erk
-# 发	fa
+# 陑	eree
+# 咡	erk
 法	fad
-伐	far
+# 伐	far
+伐	fa
 罚	fas
 阀	fam
 乏	fap
 筏	fav
 珐	faw
-垡	fart
+垡	far
+# 垡	fart
 砝	fau
 分	ff
 粉	ffm
@@ -1194,7 +1169,6 @@ import_tables:
 坋	fftf
 鼢	ffj
 豮	ffu
-𣸣	ffdb
 风	fg
 封	fgt
 冯	fgd
@@ -1260,14 +1234,11 @@ import_tables:
 矾	fjuf
 幡	fjjt
 燔	fjht
-氾	fjdv
 蘩	fjcx
 璠	fjw
 蹯	fjzt
 畈	fjt
 墦	fjtt
-𫔍	fjjt
-𬸪	fjcn
 佛	fo
 副	fu
 负	fud
@@ -1362,10 +1333,6 @@ import_tables:
 讣	fuyb
 蜉	fuiz
 砆	fuuf
-㕮	fukf
-㳇	fudf
-𫓧	fujf
-𫖯	fuvy
 飞	fw
 费	fwf
 肺	fwo
@@ -1397,7 +1364,6 @@ import_tables:
 棐	fwfm
 剕	fwfd
 篚	fwv
-𬴂	fwmf
 否	fz
 缶	fzw
 尬	ga
@@ -1444,10 +1410,9 @@ import_tables:
 荄	gdc
 戤	gdn
 晐	gdo
-𬮿	gdej
-各	ge
-哥	gek
-歌	gekq
+各	gew
+哥	ge
+歌	gek
 格	gem
 割	geb
 隔	gee
@@ -1500,7 +1465,6 @@ import_tables:
 颈	ggj
 绠	ggs
 鹒	gggn
-𬒔	ggu
 刚	gh
 岗	ghu
 港	ghd
@@ -1517,7 +1481,6 @@ import_tables:
 冮	ghdg
 堽	ght
 筻	ghv
-㭎	ghmx
 鿍	ghtf
 感	gj
 干	gja
@@ -1546,7 +1509,6 @@ import_tables:
 疳	gjb
 澉	gjdw
 虷	gji
-㽏	gjdg
 怪	gk
 乖	gkq
 拐	gkf
@@ -1562,7 +1524,6 @@ import_tables:
 胱	glo
 垙	glt
 珖	glw
-𨐈	gli
 过	go
 国	gok
 锅	goj
@@ -1584,7 +1545,6 @@ import_tables:
 蜾	goig
 涡	god
 埚	gotn
-𬇹	gody
 关	gr
 管	grv
 官	grb
@@ -1631,7 +1591,6 @@ import_tables:
 觥	gsd
 蚣	gsi
 珙	gsw
-䢼	gsge
 硔	gsug
 故	gu
 股	guo
@@ -1682,7 +1641,6 @@ import_tables:
 馉	guuo
 牿	gunk
 蓇	guco
-𦙶	guog
 贵	gv
 归	gvl
 鬼	gvp
@@ -1841,12 +1799,10 @@ import_tables:
 垎	het
 隺	hebv
 鞨	hegr
-𬌗	heyk
 很	hf
 恨	hfx
 狠	hfq
 痕	hfb
-𬣳	hfy
 横	hg
 哼	hgk
 恒	hgx
@@ -1903,7 +1859,6 @@ import_tables:
 撖	hjfw
 浛	hjdk
 虷	hjig
-㘎	hjkw
 垾	hjt
 崡	hjuu
 嵅	hjuk
@@ -1945,8 +1900,6 @@ import_tables:
 蟥	hlib
 媓	hln
 瑝	hlww
-㿠	hlbg
-𨱑	hljb
 或	ho
 活	hod
 火	hob
@@ -1963,7 +1916,6 @@ import_tables:
 藿	hocv
 钬	hojh
 濩	hody
-夥	hogx
 嚄	hoky
 蠖	hoi
 攉	hof
@@ -1972,8 +1924,6 @@ import_tables:
 耠	hol
 佸	horu
 锪	hojx
-㸌	hohv
-𬴃	hom
 换	hr
 还	hrz
 环	hrw
@@ -2010,10 +1960,7 @@ import_tables:
 貆	hrv
 峘	hru
 锾	hrjy
-㬊	hroy
 荁	hrcd
-𤩽	hrwq
-𬘫	hrsy
 红	hs
 哄	hsk
 宏	hsb
@@ -2038,8 +1985,6 @@ import_tables:
 荭	hscg
 玒	hsw
 谼	hsgg
-𫟹	hsj
-𬭎	hsjs
 乎	hu
 壶	hut
 户	hud
@@ -2139,12 +2084,8 @@ import_tables:
 桧	hvmy
 烠	hvho
 硊	hvuv
-㧑	hvfw
-𬤝	hvyx
-𬭬	hvje
 黑	hw
 嘿	hwk
-𬭶	hwj
 话	hx
 花	hxc
 化	hxr
@@ -2191,7 +2132,6 @@ import_tables:
 篌	hzv
 郈	hzie
 鲘	hzy
-𬭤	hzj
 差	ia
 茶	iac
 查	iam
@@ -2220,7 +2160,6 @@ import_tables:
 喳	iakd
 蹅	iaz
 嵖	iaud
-𥻗	iamd
 超	ic
 抄	icf
 炒	ich
@@ -2254,7 +2193,6 @@ import_tables:
 坼	iet
 尺	ieu
 砗	ieui
-㬚	ieo
 陈	if
 趁	ift
 臣	ifk
@@ -2280,7 +2218,6 @@ import_tables:
 棽	ifmv
 碜	ifu
 郴	ifme
-𬘭	ifs
 成	ig
 称	igh
 城	igt
@@ -2348,7 +2285,6 @@ import_tables:
 阊	ihm
 鲿	ihyy
 惝	ihxk
-𬬮	ihj
 吃	ii
 持	iif
 池	iid
@@ -2392,7 +2328,6 @@ import_tables:
 胣	iioy
 瓻	iix
 痓	iibt
-𫄨	iis
 产	ij
 铲	ijj
 馋	iju
@@ -2432,7 +2367,6 @@ import_tables:
 旵	ijo
 冁	ijby
 儳	ijr
-𬊤	ijh
 踹	ik
 揣	ikf
 搋	ikfj
@@ -2482,7 +2416,6 @@ import_tables:
 种	ish
 珫	iswy
 漴	isdu
-㳘	isdy
 处	iu
 除	iue
 初	iup
@@ -2500,13 +2433,13 @@ import_tables:
 黜	iul
 刍	iude
 础	iuu
-俶	iury
-楮	iumo
+# 俶	iury
+# 楮	iumo
 矗	iuuq
 亍	iua
 滁	iudm
 绌	ius
-樗	iumk
+# 樗	iumk
 憷	iuxz
 斶	iuji
 搐	iuf
@@ -2515,10 +2448,7 @@ import_tables:
 蜍	iuim
 濋	iudz
 蹰	iuzc
-䝙	iuv
-䢺	iuie
 琡	iuw
-𬺓	iuvz
 吹	iv
 锤	ivj
 捶	ivf
@@ -2541,9 +2471,7 @@ import_tables:
 鹑	iyw
 莼	iyc
 瑃	iywo
-䲠	iyyo
 堾	iyt
-𬭚	iyj
 抽	iz
 丑	izv
 臭	izz
@@ -2607,7 +2535,6 @@ import_tables:
 琎	jbwj
 墐	jbt
 卺	jblv
-𬬱	jbjj
 几	ji
 及	jip
 即	jig
@@ -2725,16 +2652,8 @@ import_tables:
 瀱	jidd
 鹡	jirn
 鱾	jiyj
-㴔	jidx
 徛	jirk
 枅	jimk
-𪟝	jifl
-𫌀	jipb
-𫓯	jijt
-𫓹	jijb
-𬯀	jieq
-𬶨	jigy
-𬶭	jiyu
 经	jk
 竟	jkl
 精	jkm
@@ -2784,7 +2703,6 @@ import_tables:
 璥	jkww
 麖	jklx
 猄	jkqx
-䴖	jkfn
 将	jl
 讲	jly
 奖	jll
@@ -2883,7 +2801,6 @@ import_tables:
 鞯	jmgz
 牮	jmrn
 鳒	jmyj
-𬣡	jmyj
 叫	jn
 较	jni
 教	jnl
@@ -2940,7 +2857,6 @@ import_tables:
 漖	jndw
 僬	jnrh
 恔	jnxf
-䴔	jnwn
 接	jp
 届	jpu
 界	jpt
@@ -2994,12 +2910,11 @@ import_tables:
 悈	jpxc
 褯	jpp
 岊	jpbu
-㛃	jpfn
-久	jq
+久	jqp
 酒	jqd
 旧	jql
 救	jqq
-九	jqp
+九	jq
 揪	jqf
 灸	jqj
 鸠	jqjn
@@ -3021,7 +2936,6 @@ import_tables:
 阄	jqmd
 赳	jqt
 桕	jqmj
-㠇	jqu
 卷	jr
 捐	jrf
 绢	jrs
@@ -3049,8 +2963,6 @@ import_tables:
 炅	jso
 坰	jst
 泂	jsd
-䌹	jss
-𬳶	jsm
 绝	jt
 觉	jtx
 嚼	jtk
@@ -3083,9 +2995,6 @@ import_tables:
 镢	jtj
 劂	jtid
 砄	jtug
-㵐	jtdq
-𫔎	jtjk
-𫘝	jtmg
 举	ju
 据	juf
 剧	juu
@@ -3105,7 +3014,6 @@ import_tables:
 橘	jum
 惧	jux
 车	jua
-車	jui
 钜	jujj
 矩	juuj
 鞠	jug
@@ -3153,8 +3061,6 @@ import_tables:
 岠	juuj
 腒	juo
 弆	juqc
-䴗	juon
-𬶋	juyj
 加	jx
 家	jxb
 假	jxr
@@ -3194,7 +3100,6 @@ import_tables:
 袈	jxly
 恝	jxf
 泇	jxdk
-𬂩	jxmj
 均	jy
 君	jyy
 军	jyb
@@ -3219,7 +3124,6 @@ import_tables:
 隽	jyrn
 葰	jycw
 鲪	jyyk
-䐃	jyoh
 卡	ka
 咯	kak
 咖	kakk
@@ -3235,7 +3139,6 @@ import_tables:
 犒	kcn
 栲	kcm
 洘	kcd
-㸆	kchf
 开	kd
 凯	kdu
 铠	kdj
@@ -3262,9 +3165,9 @@ import_tables:
 刻	kew
 咳	kek
 嗑	kekm
-柯	kem
+柯	kemk
 珂	kewk
-棵	kemg
+棵	kem
 渴	ked
 恪	kex
 颏	kewy
@@ -3283,7 +3186,7 @@ import_tables:
 岢	keuk
 溘	kedm
 稞	kehg
-匼	kekk
+# 匼	kekk
 牁	kep
 啃	kf
 肯	kfv
@@ -3304,8 +3207,6 @@ import_tables:
 亢	khw
 伉	khr
 闶	khmj
-𡐓	kht
-𩾌	khy
 看	kj
 砍	kju
 坎	kjt
@@ -3336,7 +3237,6 @@ import_tables:
 鲙	kky
 浍	kkd
 狯	kkq
-㧟	kkf
 狂	kl
 框	klm
 矿	klu
@@ -3354,7 +3254,6 @@ import_tables:
 纩	kls
 夼	kldi
 洭	kldw
-𫛭	klq
 扩	ko
 阔	kom
 括	kof
@@ -3416,8 +3315,6 @@ import_tables:
 篑	kvv
 岿	kvue
 暌	kvot
-𫠆	kvvy
-剋	kw
 跨	kx
 夸	kxd
 垮	kxt
@@ -3451,7 +3348,6 @@ import_tables:
 芤	kzcv
 筘	kzv
 眍	kzo
-𫸩	kzg
 拉	la
 啦	lak
 辣	lax
@@ -3470,7 +3366,6 @@ import_tables:
 瘌	lab
 砬	laul
 鞡	lag
-𬶟	lay
 林	lb
 临	lbl
 拎	lbf
@@ -3500,8 +3395,6 @@ import_tables:
 箖	lbv
 瞵	lbof
 翷	lbmx
-𬭸	lbj
-𬴊	lbmf
 老	lc
 捞	lcf
 佬	lcr
@@ -3523,7 +3416,6 @@ import_tables:
 荖	lccl
 络	lcs
 耢	lcl
-𫭼	lct
 来	ld
 莱	ldc
 赖	ldu
@@ -3574,8 +3466,6 @@ import_tables:
 蒗	lhcl
 稂	lhhl
 筤	lhv
-㫰	lho
-㮾	lhlm
 蓢	lhco
 里	li
 离	liw
@@ -3660,9 +3550,6 @@ import_tables:
 雳	liyl
 猁	liqd
 篥	livm
-㰀	limu
-𫵷	liul
-𬍛	liwl
 烂	lj
 蓝	ljc
 懒	ljx
@@ -3686,7 +3573,6 @@ import_tables:
 罱	ljsg
 襕	ljpj
 漤	ljdn
-𬒗	ljuj
 令	lk
 另	lkk
 零	lky
@@ -3723,7 +3609,6 @@ import_tables:
 〇	lkvv
 鸰	lkrn
 昤	lko
-㥄	lkx
 量	ll
 两	lla
 亮	llw
@@ -3745,8 +3630,6 @@ import_tables:
 踉	llz
 辌	llix
 悢	llx
-𫟅	lls
-𬜯	llcl
 连	lm
 练	lms
 脸	lmo
@@ -3775,7 +3658,6 @@ import_tables:
 浰	lmdd
 裣	lmpq
 瑓	lmwj
-𬶠	lmyj
 聊	ln
 撩	lnf
 料	lnm
@@ -3805,7 +3687,6 @@ import_tables:
 漻	lndp
 鹩	lndn
 簝	lnv
-𪤗	lnt
 罗	lo
 落	loc
 咯	lok
@@ -3851,8 +3732,6 @@ import_tables:
 趔	lptd
 峛	lpud
 脟	lpo
-䴕	lpdn
-𫚭	lpy
 流	lq
 六	lqw
 留	lqp
@@ -3915,12 +3794,10 @@ import_tables:
 弄	lswc
 漋	lsdu
 眬	lsol
-𬕂	lsvb
 略	lt
 掠	ltf
 锊	ltj
 圙	ltk
-䂮	ltfu
 路	lu
 撸	luf
 录	lue
@@ -3972,8 +3849,6 @@ import_tables:
 澛	ludo
 氇	lumo
 稑	luht
-𫘧	lumu
-𬬻	luju
 率	lv
 绿	lvs
 铝	lvj
@@ -3998,7 +3873,6 @@ import_tables:
 稆	lvhk
 葎	lvc
 垏	lvt
-𦝼	lvo
 类	lw
 累	lwt
 雷	lwy
@@ -4032,8 +3906,6 @@ import_tables:
 纶	lys
 沦	lyd
 囵	lyk
-𫭢	lyt
-𬬭	lyj
 楼	lz
 喽	lzk
 漏	lzd
@@ -4051,10 +3923,7 @@ import_tables:
 溇	lzdn
 髅	lzg
 嵝	lzu
-䁖	lzo
 剅	lzdd
-𦝼	lzon
-𪣻	lzt
 骂	ma
 嘛	mak
 马	mav
@@ -4138,7 +4007,6 @@ import_tables:
 钔	mfj
 呇	mfu
 懑	mfdx
-𫞩	mfw
 梦	mg
 猛	mgq
 萌	mgc
@@ -4147,7 +4015,6 @@ import_tables:
 懵	mgx
 锰	mgj
 盟	mgo
-濛	mgd
 獴	mgqu
 勐	mgzl
 虻	mgi
@@ -4161,9 +4028,7 @@ import_tables:
 艨	mgvu
 蜢	mgim
 礞	mgu
-㠓	mguu
 鹲	mgcn
-𫑡	mgk
 忙	mh
 盲	mhw
 莽	mhc
@@ -4195,7 +4060,6 @@ import_tables:
 眯	mio
 糜	migm
 醚	miym
-祕	mip
 祢	mipx
 弭	mige
 麋	mil
@@ -4231,7 +4095,6 @@ import_tables:
 颟	mjcy
 鞔	mjg
 埋	mjtl
-𬜬	mjck
 名	mk
 命	mkr
 明	mko
@@ -4263,7 +4126,6 @@ import_tables:
 腼	mmom
 偭	mmr
 渑	mmdd
-𩾃	mmy
 秒	mn
 喵	mnk
 庙	mng
@@ -4287,7 +4149,6 @@ import_tables:
 魔	mog
 磨	mogu
 抹	mofw
-麽	mogm
 墨	mol
 没	mod
 摩	mogu
@@ -4317,7 +4178,6 @@ import_tables:
 嫫	mond
 靺	mogw
 藦	mocu
-𬙊	mos
 灭	mp
 咩	mpk
 乜	mpv
@@ -4348,8 +4208,6 @@ import_tables:
 牟	mus
 仫	mur
 毪	mumn
-𧿹	muz
-𬭁	mujm
 没	mw
 每	mwp
 美	mwy
@@ -4402,7 +4260,6 @@ import_tables:
 乸	nay
 南	nau
 肭	nao
-𦰡	nac
 您	nb
 闹	nc
 脑	nco
@@ -4465,9 +4322,6 @@ import_tables:
 坭	nit
 怩	nix
 薿	nic
-𨺙	nie
-𫐐	nii
-𫠜	niv
 难	nj
 男	njt
 南	nju
@@ -4482,10 +4336,8 @@ import_tables:
 拧	nk
 宁	nkb
 凝	nkd
-甯	nkby
 狞	nkq
 柠	nkm
-苧	nkc
 佞	nkr
 泞	nkdd
 咛	nkk
@@ -4521,7 +4373,6 @@ import_tables:
 搦	nofg
 锘	noj
 娜	non
-𦰡	noc
 捏	np
 镍	npj
 涅	npd
@@ -4539,7 +4390,6 @@ import_tables:
 菍	npcx
 糵	npcm
 陧	npet
-𫔶	npm
 牛	nq
 扭	nqf
 妞	nqn
@@ -4557,7 +4407,6 @@ import_tables:
 脓	nso
 秾	nsh
 哝	nsk
-𬪩	nsy
 虐	nt
 疟	ntb
 怒	nu
@@ -4577,8 +4426,8 @@ import_tables:
 内	nw
 馁	nwu
 耨	nz
-喔	oo
-噢	ook
+喔	ook
+噢	oo
 欧	ou
 藕	ouc
 偶	our
@@ -4591,8 +4440,6 @@ import_tables:
 讴	ouy
 瓯	ouqw
 怄	oux
-𠙶	oukl
-𬉼	ouh
 怕	pa
 爬	pav
 趴	paz
@@ -4616,7 +4463,6 @@ import_tables:
 牝	pbnb
 姘	pbnk
 玭	pbw
-𬞟	pbc
 跑	pc
 泡	pcd
 炮	pch
@@ -4727,9 +4573,7 @@ import_tables:
 仳	pirb
 否	pibk
 鲏	piyp
-䴙	piun
 苉	pic
-𬳵	pimp
 盘	pj
 判	pjb
 潘	pjd
@@ -4782,8 +4626,6 @@ import_tables:
 胼	pmo
 蹁	pmz
 犏	pmn
-㛹	pmng
-𡎚	pmt
 票	pn
 飘	pnx
 漂	pnd
@@ -4820,12 +4662,10 @@ import_tables:
 繁	popx
 朴	pomb
 笸	pov
-䥽	pojy
 撇	pp
 瞥	ppx
 氕	ppq
 苤	ppc
-𬭯	ppj
 谱	pu
 铺	puj
 普	pub
@@ -4990,9 +4830,6 @@ import_tables:
 洓	qidu
 鲯	qiyb
 碶	qiud
-䓫	qick
-𨙸	qive
-𬨂	qiiu
 请	qk
 轻	qki
 清	qkd
@@ -5054,7 +4891,6 @@ import_tables:
 遣	qmz
 迁	qmzq
 潜	qmdo
-乾	qmu
 谦	qmy
 嵌	qmuq
 钳	qmjg
@@ -5096,7 +4932,6 @@ import_tables:
 肷	qmo
 圲	qmtq
 伣	qmrj
-𬘬	qmso
 敲	qn
 桥	qnm
 乔	qny
@@ -5171,7 +5006,6 @@ import_tables:
 犰	qqqj
 巯	qqji
 鞧	qqg
-𨱇	qqjq
 全	qr
 圈	qrk
 权	qrm
@@ -5198,7 +5032,6 @@ import_tables:
 瑔	qrw
 鳈	qryu
 婘	qrn
-𨟠	qro
 穷	qs
 琼	qsw
 蛩	qsg
@@ -5207,11 +5040,9 @@ import_tables:
 茕	qsc
 銎	qsgj
 筇	qsv
-䓖	qscl
 却	qt
 缺	qtf
 确	qtu
-卻	qtg
 阙	qtm
 雀	qtx
 瘸	qtb
@@ -5222,7 +5053,6 @@ import_tables:
 悫	qtt
 碏	qtuo
 埆	qtty
-𬒈	qtxu
 区	qu
 取	que
 曲	quk
@@ -5265,10 +5095,6 @@ import_tables:
 蛐	quiq
 磲	quum
 竘	qulj
-㭕	qumq
-䓛	quci
-𪨰	quuq
-𫭟	qutq
 恰	qx
 掐	qxf
 卡	qxu
@@ -5290,9 +5116,9 @@ import_tables:
 荛	rcc
 热	re
 惹	rec
-任	rf
+任	rfr
 认	rfy
-忍	rfr
+忍	rf
 仁	rfre
 刃	rfd
 壬	rfp
@@ -5304,7 +5130,6 @@ import_tables:
 纫	rfs
 仞	rfrr
 轫	rfi
-讱	rfyr
 纴	rfsw
 葚	rfc
 荏	rfcw
@@ -5329,12 +5154,10 @@ import_tables:
 髯	rje
 蚺	rji
 苒	rjc
-䎃	rjr
 若	ro
 弱	rog
 箬	rov
 偌	ror
-爇	roc
 蒻	rocg
 鄀	roce
 婼	ron
@@ -5398,7 +5221,6 @@ import_tables:
 鞣	rzg
 糅	rzmm
 蹂	rzz
-𫐓	rzi
 撒	sa
 洒	sad
 仨	sar
@@ -5475,12 +5297,11 @@ import_tables:
 虒	siij
 飔	sifx
 凘	sidj
-㟃	siuk
 楒	simx
-三	sj
+# 三	sj
 散	sjc
 伞	sjr
-叁	sjs
+叁	sj
 糁	sjm
 毵	sjsm
 馓	sju
@@ -5522,9 +5343,7 @@ import_tables:
 娀	ssn
 凇	ssdg
 悚	ssx
-𪨊	ssur
 忪	ssxg
-㧐	ssf
 苏	su
 酥	suy
 速	suz
@@ -5540,7 +5359,6 @@ import_tables:
 谡	suyw
 愫	suxx
 夙	suj
-甦	sug
 涑	sudu
 窣	subu
 骕	sum
@@ -5553,7 +5371,6 @@ import_tables:
 缩	sus
 僳	surm
 觫	sudu
-𫗧	suu
 岁	sv
 随	sve
 虽	svk
@@ -5577,8 +5394,6 @@ import_tables:
 穟	svhu
 璲	svw
 襚	svp
-𫟦	sviu
-𬭼	svj
 孙	sy
 损	syf
 隼	syr
@@ -5597,7 +5412,6 @@ import_tables:
 溲	szd
 瞍	szo
 嗽	szkq
-蒐	szcg
 飕	szf
 嗾	szku
 擞	szfw
@@ -5648,7 +5462,6 @@ import_tables:
 啕	tckf
 慆	tcx
 鼗	tcv
-𫘦	tcmf
 太	td
 台	tds
 态	tdt
@@ -5662,7 +5475,6 @@ import_tables:
 鲐	tdy
 骀	tdm
 邰	tdse
-薹	tdct
 酞	tdyt
 跆	tdz
 炱	tdsh
@@ -5679,7 +5491,6 @@ import_tables:
 誊	tgj
 縢	tgox
 螣	tgoi
-䲢	tgoy
 躺	th
 糖	thm
 汤	thd
@@ -5709,7 +5520,6 @@ import_tables:
 耥	thl
 埫	thtk
 铴	thjp
-䣘	thxe
 提	ti
 题	tio
 踢	tiz
@@ -5741,9 +5551,6 @@ import_tables:
 趯	tit
 瑅	tiw
 遆	tizj
-䏲	tiod
-䴘	tii
-𫘨	timz
 谈	tj
 弹	tjg
 碳	tju
@@ -5801,8 +5608,6 @@ import_tables:
 颋	tkzy
 侹	tkrw
 烶	tkhw
-䗴	tkiw
-𬘩	tks
 天	tm
 甜	tmu
 填	tmt
@@ -5869,7 +5674,6 @@ import_tables:
 圫	totq
 萚	toc
 庹	togi
-𬶍	toyb
 贴	tp
 铁	tpj
 帖	tpjv
@@ -5912,10 +5716,7 @@ import_tables:
 曈	tsol
 哃	tskk
 鲖	tsyk
-㛚	tsn
 峂	tsud
-𦒍	tslx
-𫍣	tsyk
 图	tu
 土	tuu
 吐	tuk
@@ -5937,8 +5738,6 @@ import_tables:
 腯	tuo
 梌	tum
 葖	tucq
-㻬	tuw
-𬳿	tumm
 推	tv
 腿	tvo
 退	tvz
@@ -5948,7 +5747,6 @@ import_tables:
 蜕	tvi
 煺	tvhg
 魋	tvg
-𬯎	tve
 忒	tw
 囤	ty
 臀	tyu
@@ -6034,7 +5832,6 @@ import_tables:
 厍	ueii
 拾	uefk
 猞	ueqg
-𪨶	ueui
 深	uf
 神	ufp
 身	ufz
@@ -6073,8 +5870,6 @@ import_tables:
 娠	ufni
 棽	ufmv
 瞫	ufou
-𬬹	ufj
-# 𬳽	ufme
 生	ug
 声	ugt
 省	ugu
@@ -6084,11 +5879,9 @@ import_tables:
 剩	ugq
 绳	ugs
 笙	ugv
-昇	ugoc
 盛	ugi
 晟	ugoi
 牲	ugn
-陞	uge
 甥	ugul
 眚	uguo
 乘	ugqr
@@ -6179,14 +5972,9 @@ import_tables:
 鲺	uiyi
 殖	uidq
 峙	uiuc
-襫	uipb
 邿	uit
 浉	uidj
 埘	uitc
-䏡	uiou
-䴓	uibn
-𫚕	uiyj
-𬤊	uiyz
 删	uj
 山	ujk
 闪	ujm
@@ -6226,7 +6014,6 @@ import_tables:
 舢	ujv
 墡	ujtk
 嶦	uju
-𫮃	ujtu
 帅	uk
 甩	uky
 摔	ukf
@@ -6306,7 +6093,6 @@ import_tables:
 陎	uuew
 毹	uurm
 鄃	uure
-𬬸	uuju
 水	uv
 谁	uvy
 睡	uvo
@@ -6345,7 +6131,6 @@ import_tables:
 闸	vamj
 诈	vay
 眨	vao
-吒	vak
 栅	vamc
 咤	vakq
 铡	vaj
@@ -6369,7 +6154,6 @@ import_tables:
 柞	vamv
 喋	vakm
 痄	vab
-䃎	vaux
 鲝	vayy
 齇	vaz
 找	vc
@@ -6392,8 +6176,6 @@ import_tables:
 旐	vcfv
 笊	vcv
 啁	vck
-𬬿	vcjk
-𬶐	vcyv
 债	vd
 窄	vdb
 宅	vdbq
@@ -6405,12 +6187,12 @@ import_tables:
 择	vdff
 瘵	vdbu
 豸	vdp
-着	ve
+着	vey
 者	vel
-折	vef
+折	ve
 遮	vez
 浙	ved
-哲	vefk
+哲	vef
 辄	vei
 锗	vej
 褶	vep
@@ -6418,16 +6200,15 @@ import_tables:
 辙	veiw
 啫	vek
 柘	vem
-谪	vey
+# 谪	vey
 蜇	vefi
 喆	vet
 磔	veu
 赭	veio
 蔗	vec
 晢	vefo
-詟	velk
+# 詟	velk
 鹧	veg
-䗪	vegi
 真	vf
 朕	vfo
 镇	vfj
@@ -6550,7 +6331,6 @@ import_tables:
 秩	vihf
 旨	vibo
 侄	virt
-徵	virw
 祗	vip
 栀	vimv
 芷	vicv
@@ -6607,8 +6387,6 @@ import_tables:
 庤	vigc
 梽	vimx
 榰	vimo
-𦭜	vicv
-𬃊	vimb
 站	vj
 占	vjb
 战	vjv
@@ -6634,7 +6412,6 @@ import_tables:
 谵	vjyk
 偡	vjr
 搌	vjfy
-𫗴	vjud
 拽	vk
 装	vl
 状	vll
@@ -6672,9 +6449,6 @@ import_tables:
 诼	voyu
 棁	vomx
 晫	voo
-䓬	vocu
-䦃	vojo
-𬸦	vofn
 转	vr
 赚	vrb
 专	vrt
@@ -6688,7 +6462,6 @@ import_tables:
 啭	vrk
 瑑	vrw
 沌	vrd
-䏝	vro
 中	vs
 种	vsh
 重	vsq
@@ -6759,7 +6532,6 @@ import_tables:
 橥	vuqm
 术	vumd
 瘃	vubu
-𬣞	vuyv
 追	vv
 坠	vve
 锥	vvj
@@ -6779,7 +6551,6 @@ import_tables:
 谆	vyy
 窀	vyb
 衠	vyr
-𬘯	vys
 周	vz
 州	vzd
 轴	vzi
@@ -6807,8 +6578,6 @@ import_tables:
 婤	vzn
 妯	vzny
 荮	vzc
-㑇	vzr
-㤘	vzx
 挖	wa
 哇	wak
 娃	wan
@@ -6848,7 +6617,6 @@ import_tables:
 芠	wfcw
 鳁	wfym
 璺	wfj
-𫘜	wfmw
 翁	wg
 嗡	wgk
 瓮	wgg
@@ -6856,7 +6624,6 @@ import_tables:
 蓊	wgc
 蕹	wgcv
 鹟	wggn
-𬭩	wgj
 往	wh
 王	wha
 网	whk
@@ -6905,14 +6672,13 @@ import_tables:
 芄	wjcw
 蔓	wjcy
 塆	wjtg
-𬇕	wjdw
 握	wo
 喔	wok
 窝	wob
 沃	wod
 卧	woi
 涡	wodn
-斡	wou
+# 斡	wou
 倭	wor
 龌	wov
 渥	wodt
@@ -6989,7 +6755,6 @@ import_tables:
 痦	wubk
 靰	wugw
 峿	wuuk
-𣲘	wudw
 为	ww
 位	wwr
 未	wwa
@@ -7037,7 +6802,6 @@ import_tables:
 巍	wwug
 嵬	wwug
 猬	wwqo
-薳	wwcy
 鳚	wwyc
 潍	wwdv
 亹	wwwq
@@ -7063,11 +6827,6 @@ import_tables:
 峗	wwuv
 螱	wwui
 鳂	wwyy
-𣲗	wwdw
-𫇭	wwcw
-𬀩	wwow
-𬱟	wwdy
-𬶏	wwyv
 新	xb
 心	xbd
 信	xbr
@@ -7087,8 +6846,6 @@ import_tables:
 囟	xbpx
 伈	xbrx
 莘	xbcx
-䜣	xby
-𫷷	xbg
 系	xi
 洗	xid
 戏	xiy
@@ -7132,7 +6889,6 @@ import_tables:
 嬉	xin
 豨	xiuj
 烯	xihj
-釐	xiw
 隰	xieh
 郤	xige
 羲	xiyk
@@ -7189,10 +6945,6 @@ import_tables:
 嶍	xiub
 暿	xiok
 饻	xiuy
-𠅤	xiwx
-𫘬	ximd
-𬭳	xijk
-𬶮	xiyk
 行	xk
 型	xkk
 性	xkx
@@ -7222,7 +6974,6 @@ import_tables:
 钘	xkjk
 瑆	xkw
 硎	xkud
-𫰛	xknj
 想	xl
 像	xlr
 向	xlp
@@ -7254,7 +7005,6 @@ import_tables:
 鲞	xljy
 珦	xlwk
 葙	xlco
-𬙋	xlsf
 先	xm
 线	xms
 弦	xmg
@@ -7284,7 +7034,7 @@ import_tables:
 霰	xmyw
 纤	xmsq
 宪	xmb
-籼	xmmu
+# 籼	xmmu
 蚬	xmi
 冼	xmd
 舷	xmv
@@ -7294,7 +7044,6 @@ import_tables:
 狝	xmqx
 筅	xmve
 跣	xmz
-燹	xmuh
 锨	xmj
 洗	xmde
 祆	xmp
@@ -7311,11 +7060,6 @@ import_tables:
 忺	xmx
 鹇	xmmn
 禒	xmpu
-㬎	xmoh
-𪾢	xmoj
-𫍯	xmyk
-𬀪	xmoj
-𬸣	xmbn
 笑	xn
 肖	xnx
 校	xnm
@@ -7345,7 +7089,7 @@ import_tables:
 蛸	xni
 嚣	xnkk
 虓	xnjj
-翛	xnr
+# 翛	xnr
 猇	xnq
 淆	xndo
 皛	xnbb
@@ -7356,7 +7100,6 @@ import_tables:
 滧	xndw
 蟏	xnib
 敩	xnxw
-𫍲	xnyy
 写	xp
 些	xpv
 鞋	xpg
@@ -7403,9 +7146,6 @@ import_tables:
 薢	xpcn
 躞	xpzy
 榍	xpmo
-㙦	xprt
-𤫉	xpw
-𬹼	xpvj
 修	xq
 秀	xqh
 休	xqr
@@ -7416,7 +7156,6 @@ import_tables:
 羞	xqy
 袖	xqp
 咻	xqkm
-脩	xqro
 岫	xqu
 朽	xqm
 髹	xqe
@@ -7429,7 +7168,6 @@ import_tables:
 珛	xqwo
 馐	xqui
 鸺	xqrn
-䗛	xqi
 选	xr
 癣	xrb
 悬	xrq
@@ -7467,9 +7205,6 @@ import_tables:
 痃	xrbx
 暶	xroz
 愃	xrx
-𫍽	xryy
-𫓶	xrjo
-𫠊	xrmx
 兄	xs
 胸	xso
 熊	xss
@@ -7537,10 +7272,7 @@ import_tables:
 魆	xugl
 谞	xuyo
 珝	xuwx
-㳚	xudd
 冔	xuoy
-𦈡	xuse
-𬣙	xuyy
 下	xx
 瞎	xxo
 夏	xxb
@@ -7598,11 +7330,6 @@ import_tables:
 噀	xykg
 峋	xyu
 浚	xydw
-𫄸	xysh
-𬊈	xyh
-𬍤	xywc
-𬘓	xysi
-𬩽	xyee
 呀	ya
 压	yai
 牙	yag
@@ -7681,10 +7408,6 @@ import_tables:
 硍	ybug
 珢	ybw
 歅	ybxq
-䲟	ybye
-𬘡	ybs
-# 𬤇	ybyt
-𬮱	ybmt
 要	yc
 药	ycc
 腰	yco
@@ -7725,7 +7448,6 @@ import_tables:
 崾	ycun
 猺	ycq
 媱	ycnf
-㙘	yctn
 也	ye
 页	yea
 叶	yek
@@ -7794,13 +7516,13 @@ import_tables:
 译	yiy
 意	yilx
 依	yiry
-咦	yik
+咦	yiky
 仪	yiry
 衣	yiwy
 伊	yiry
 义	yid
 椅	yim
-医	yiku
+医	yik
 翼	yix
 宜	yib
 异	yisc
@@ -7912,12 +7634,6 @@ import_tables:
 宧	yibi
 椸	yimy
 扅	yihx
-㑊	yirb
-𫄷	yisx
-𫖮	yiuy
-𬟁	yicn
-𬬩	yijy
-𬺈	yivk
 眼	yj
 盐	yjt
 演	yjd
@@ -7996,12 +7712,7 @@ import_tables:
 漹	yjdh
 虤	yjhj
 扊	yjhh
-䶮	yjlt
 觃	yjjz
-𪩘	yjuq
-𫄧	yjsv
-𬙂	yjsb
-𬸘	yjkn
 应	yk
 硬	yku
 赢	ykw
@@ -8044,7 +7755,6 @@ import_tables:
 璎	ykwn
 茔	ykct
 媖	ykny
-䓨	ykcf
 哟	yo
 唷	yok
 育	yow
@@ -8089,7 +7799,6 @@ import_tables:
 湲	yrdy
 箢	yrvv
 羱	yryx
-𫘪	yrmx
 用	ys
 勇	yss
 永	ysd
@@ -8120,7 +7829,6 @@ import_tables:
 恿	yssx
 埇	ysty
 栐	ysm
-㶲	ysh
 鲬	ysyy
 越	yt
 月	ytk
@@ -8144,12 +7852,9 @@ import_tables:
 爚	yth
 钥	ytjo
 彟	yte
-𫐄	yti
-𬸚	ytqn
 与	yu
 于	yua
 鱼	yud
-於	yuf
 欲	yug
 语	yuy
 雨	yuad
@@ -8258,7 +7963,6 @@ import_tables:
 蝓	yuid
 蓣	yucy
 悆	yurx
-㺄	yuqd
 云	yy
 运	yyz
 晕	yyo
@@ -8293,7 +7997,6 @@ import_tables:
 涢	yydb
 员	yykb
 馧	yyhm
-𫖳	yyyy
 又	yz
 由	yzo
 油	yzd
@@ -8343,7 +8046,6 @@ import_tables:
 浟	yzdw
 蝣	yziz
 蚰	yziy
-𬨎	yziy
 咋	za
 砸	zau
 杂	zaj
@@ -8369,11 +8071,10 @@ import_tables:
 璪	zcw
 慥	zcx
 簉	zcv
-唣	zckq
-𥖨	zcum
+# 唣	zckq
 再	zd
 载	zdg
-哉	zdgk
+# 哉	zdgk
 崽	zdu
 宰	zdb
 仔	zdr
@@ -8407,7 +8108,6 @@ import_tables:
 矰	zgu
 锃	zgj
 综	zgsu
-䎖	zgbx
 脏	zh
 葬	zhc
 臧	zhv
@@ -8541,7 +8241,6 @@ import_tables:
 撙	zyf
 僔	zyr
 嶟	zyu
-𨱔	zyj
 走	zz
 揍	zzf
 奏	zzi
