@@ -191,9 +191,9 @@ date_translator:
   timestamp: timestamp
 
 lunar: anl
-
+#如果你想 只保留第一个候选 ，需要将 max_words 改为 1
 limit_word_filter:
-  max_words: 5
+  max_words: 2
 
 long_word_filter:
   count: 2
