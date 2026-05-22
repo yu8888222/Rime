@@ -2740,10 +2740,10 @@ import_tables:
 减	jmd
 捡	jmf
 煎	jmbh
-箭	jmv
+箭	jmvd
 剪	jmbd
 肩	jmh
-简	jmvo
+简	jmv
 舰	jmvj
 尖	jmx
 贱	jmbj
@@ -2757,7 +2757,7 @@ import_tables:
 渐	jmdj
 拣	jmfd
 检	jmm
-僭	jmro
+# 僭	jmro
 谏	jmy
 奸	jmn
 坚	jmlt
