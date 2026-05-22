@@ -88,6 +88,7 @@ __include: moqi.yaml:/opencc_config # 拆分配置
 speller:
   popping:
     - {accept: "[a-z]", match: "[a-df-zA-DF-Z]\\w{3}"}
+    - {accept: "[a-z]", match: "e\\w{3}"}
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
   alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA[/|
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
@@ -96,7 +97,7 @@ speller:
   delimiter: " '"
   max_code_length: 5
   auto_select: true   #顶字上屏
-  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}|^e\w{4}
+  auto_select_pattern: ^;.$|^[a-df-zA-DF-Z]\w{3}|^e\w{3,4}
 
   auto_select_unique_candidate: true
   auto_clear: max_length #manual|auto|max_length 空码按下一键确认清屏|空码自动清|达到最长码时后码顶上清屏
