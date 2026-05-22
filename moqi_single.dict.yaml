@@ -277,7 +277,7 @@ import_tables:
 敝	bixw
 匕	bipv
 毙	bibb
-俾	biru
+# 俾	biru
 鄙	bike
 蔽	bic
 婢	bin
@@ -5359,18 +5359,18 @@ import_tables:
 谡	suyw
 愫	suxx
 夙	suj
-涑	sudu
-窣	subu
+# 涑	sudu
+# 窣	subu
 骕	sum
-蔌	suc
+# 蔌	suc
 嗉	suk
 簌	suv
 傃	surx
-鹔	suyn
+# 鹔	suyn
 蹜	suzb
 缩	sus
-僳	surm
-觫	sudu
+# 僳	surm
+# 觫	sudu
 岁	sv
 随	sve
 虽	svk
@@ -7830,10 +7830,10 @@ import_tables:
 埇	ysty
 栐	ysm
 鲬	ysyy
-越	yt
-月	ytk
+越	ytt
+月	yt
 约	yts
-曰	ytka
+曰	ytk
 粤	ytp
 岳	ytq
 悦	ytx
@@ -7849,9 +7849,9 @@ import_tables:
 瀹	ytd
 哕	ytkx
 栎	ytml
-爚	yth
+# 爚	yth
 钥	ytjo
-彟	yte
+# 彟	yte
 与	yu
 于	yua
 鱼	yud
