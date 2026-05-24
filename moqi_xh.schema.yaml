@@ -78,7 +78,6 @@ engine:
    
     # 脚本翻译器，用于拼音、粤拼等基于音节表的输入方案
     - script_translator
-    - table_translator@uncommon_words
     - script_translator@user_dict_set
     - script_translator@add_user_dict
     
@@ -448,8 +447,3 @@ custom_phrase:
 
 menu:
   page_size: 5
-
-uncommon_words:
-  dictionary: "cn_dicts_moqi/8105.uncommon"
-  initial_quality: 1
-  comment: "〔罕见〕"
