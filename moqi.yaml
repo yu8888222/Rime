@@ -104,10 +104,10 @@ octagram:
   enable_for_sentence:
     __patch:
       grammar:
-        language: fcitx-zh-hans # 小企鹅模型
+        # language: fcitx-zh-hans # 小企鹅模型
         # language: zh-hans-t-huayu-v7-bgw # 华宇模型
         # language: zh-hans-wiki-202405 # 维基模型
-        # language: zh-hans-t-essay-bgw # rime官方模型
+        language: zh-hans-t-essay-bgw # rime官方模型
         #language: zhs-moqi # 墨奇训练的模型 聊胜于无
         collocation_max_length: 2
         collocation_min_length: 1

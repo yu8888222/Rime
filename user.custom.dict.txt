@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	800
+#@/tick	801
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -46,7 +46,7 @@
 捷效	jp[fz xn[ww	2
 结束	jp[sk uu[gr	0
 结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
-嘉立创	jx[tk li[wb il[rd	46
+嘉立创	jx[tk li[wb il[rd	48
 立创	li[wb il[rd	2
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0

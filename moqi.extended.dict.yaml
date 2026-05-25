@@ -55,7 +55,7 @@ import_tables:
   #- cn_dicts_cell/name2
   #- cn_dicts_cell/literature
   #- cn_dicts_cell/music
-  - cn_dicts_cell/computer
+  # - cn_dicts_cell/computer
   #- cn_dicts_cell/composite
   #- cn_dicts_cell/name
   
