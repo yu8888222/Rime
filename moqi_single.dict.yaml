@@ -7551,7 +7551,7 @@ import_tables:
 溢	yidm
 驿	yimf
 疫	yibu
-翊	yilx
+# 翊	yilx
 胰	yioy
 刈	yixd
 颐	yiiy
@@ -7596,13 +7596,13 @@ import_tables:
 漪	yidk
 苡	yicr
 饴	yiuk
-嶷	yiuz
+# 嶷	yiuz
 匜	yiky
 屹	yiuv
-肄	yiby
-挹	yifb
-裛	yiyb
-潩	yidg
+# 肄	yiby
+# 挹	yifb
+# 裛	yiyb
+# 潩	yidg
 舣	yivy
 怿	yixf
 踦	yizk
@@ -7610,7 +7610,7 @@ import_tables:
 嗌	yikm
 簃	yivx
 薏	yicx
-黟	yilx
+# 黟	yilx
 洢	yidy
 繄	yikx
 荑	yicy
@@ -7749,12 +7749,12 @@ import_tables:
 锳	ykj
 滢	ykdy
 荥	ykcu
-潆	ykdx
-蓥	ykcj
+# 潆	ykdx
+# 蓥	ykcj
 溁	ykdm
 璎	ykwn
 茔	ykct
-媖	ykny
+# 媖	ykny
 哟	yo
 唷	yok
 育	yow
@@ -7813,15 +7813,15 @@ import_tables:
 慵	ysx
 泳	ysdy
 踊	ysz
-壅	yswt
+# 壅	yswt
 痈	ysb
-颙	yst
+# 颙	yst
 甬	yssy
-鳙	ysy
+# 鳙	ysy
 饔	yswg
 邕	ysv
-镛	ysj
-鄘	ysge
+# 镛	ysj
+# 鄘	ysge
 澭	ysdv
 臃	yso
 墉	ysto
@@ -7844,9 +7844,9 @@ import_tables:
 玥	ytw
 樾	ytml
 刖	yto
-籥	ytv
-龠	ytr
-瀹	ytd
+# 籥	ytv
+# 龠	ytr
+# 瀹	ytd
 哕	ytkx
 栎	ytml
 # 爚	yth
