@@ -15,7 +15,6 @@ version: "2024.05.11"
 sort: original  #字典初始排序，可選original或by_weight
 use_preset_vocabulary: false
 import_tables:
-  - 8105_ae   # ae前缀查字
   - cn_dicts_common/word   # 2字
   - cn_dicts_common/word3
   #- cn_dicts_common/4jian_no_conflict   # 4字
@@ -7585,7 +7584,7 @@ import_tables:
 # 瘗	yibt
 缢	yism
 沂	yidj
-殪	yidb
+# 殪	yidb
 峄	yiuf
 圯	yits
 绎	yisf
