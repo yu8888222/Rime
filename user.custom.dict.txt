@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	801
+#@/tick	804
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
@@ -23,6 +23,8 @@
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	16
 广	gl[di	0
+工	gs[aa	2
+工程	gs[aa ig[hw	4
 公棚	gs[bs pg[mo	598
 公棚端	gs[bs pg[mo dr	4
 公棚端	gs[bs pg[mo dr[le	6
@@ -46,7 +48,7 @@
 捷效	jp[fz xn[ww	2
 结束	jp[sk uu[gr	0
 结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
-嘉立创	jx[tk li[wb il[rd	48
+嘉立创	jx[tk li[wb il[rd	52
 立创	li[wb il[rd	2
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0
