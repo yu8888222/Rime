@@ -46,7 +46,6 @@ engine:
       - abc_segmentor
       - punct_segmentor
   
-      - affix_segmentor@eo_lookup
       - affix_segmentor@verbatim ## not as the last of this list
 
       - fallback_segmentor
@@ -66,7 +65,6 @@ engine:
       #- reverse_lookup_translator@reverse_stroke
 
       - table_translator
-      - table_translator@eo_lookup
       - lua_translator@*date_translator    # 时间、日期、星期
       - lua_translator@*lunar              # 农历
     
@@ -86,14 +84,6 @@ __include: moqi.yaml:/phrase # 置顶
 __include: moqi.yaml:/punctuator # 标点
 __include: moqi.yaml:/guide # 引导前缀配置
 __include: moqi.yaml:/opencc_config # 拆分配置
-
-recognizer:
-  patterns:
-    uppercase: "^[A-Z].*$"
-    punct: '^/([0-9]|10|[A-z]+)$'
-    eo_lookup: "^ae[a-z]*$"
-    number: "^R[0-9]+[.]?[0-9]*"
-    gregorian_to_lunar: "^N[0-9]{1,8}"
 
 speller:
   popping:
@@ -263,12 +253,5 @@ long_word_filter:
 
 menu:
   page_size: 5
-
-eo_lookup:
-  tag: eo_lookup
-  dictionary: 8105_ae
-  prefix: ae
-  enable_completion: true
-  tips: "〔8105单字〕"
 
 
