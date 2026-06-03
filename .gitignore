@@ -12,7 +12,7 @@ installation.yaml
 user.yaml
 trash/
 *.custom.yaml1
-*.custom.yaml
+# *.custom.yaml  # 已取消忽略，需要提交到 git
 
 sync/**
 !sync/**/
