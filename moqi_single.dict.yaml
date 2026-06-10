@@ -17,7 +17,7 @@ use_preset_vocabulary: false
 import_tables:
   - cn_dicts_common/word   # 2字
   - cn_dicts_common/word3
-  - cn_dicts_moqi/8105_ae   # 8105单字基础编码
+  - cn_dicts_moqi/8105   # 8105单字基础编码
   #- cn_dicts_common/4jian_no_conflict   # 4字
   #- cn_dicts_common/changcijian   # 多字
   #- cn_dicts_common/changcijian   # 字
