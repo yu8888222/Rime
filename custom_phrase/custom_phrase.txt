@@ -1,16 +1,13 @@
 #work
-赛格锐	sgr
-集鸽器	jgq
-扫描器	smq
-鸽钟	gv
-公棚	gp
-查棚	ip
-绑环	bhhr
-UI设计	uiuj
-央智眼	yvy
+一飞智控	yfvk
+
+#UI设计	uiuj
+
 未完成：无	wwi	1
 已完成：	ywi	2
-
+无人机	wrj	2
+局域网	jyw	2
+优缺点	yqd	2
 #我的符号
 1. 	ey	
 2. 	ee	

@@ -19493,7 +19493,7 @@ sort: by_weight
 出车	iuie
 除尘	iuif
 出城	iuig
-出场	iuih
+出厂	iuih
 出产	iuij
 初创	iuil
 除虫	iuis
@@ -19616,6 +19616,7 @@ sort: by_weight
 出书	iuuu
 出水	iuuv
 出手	iuuz
+出售	iuuz
 出渣	iuva
 出招	iuvc
 出诊	iuvf
@@ -20810,6 +20811,7 @@ sort: by_weight
 静女	jknv
 境内	jknw
 惊怕	jkpa
+竟品	jkpb
 精品	jkpb
 竞跑	jkpc
 竞拍	jkpd
@@ -42936,6 +42938,7 @@ sort: by_weight
 童声	tsug
 同上	tsuh
 同时	tsui
+同事	tsui
 铜山	tsuj
 统帅	tsuk
 通说	tsuo
@@ -44353,6 +44356,7 @@ sort: by_weight
 神阙	ufqt
 神曲	ufqu
 神人	ufrf
+慎人	ufrf
 哂然	ufrj
 参茸	ufrs
 深入	ufru
@@ -45175,6 +45179,7 @@ sort: by_weight
 师生	uiug
 时尚	uiuh
 事实	uiui
+时实	uiui	100
 屎山	uiuj
 是爽	uiul
 是说	uiuo
@@ -46059,6 +46064,7 @@ sort: by_weight
 书院	uuyr
 数月	uuyt
 属于	uuyu
+术语	uuyu
 书云	uuyy
 书友	uuyz
 数载	uuzd
@@ -46593,6 +46599,7 @@ sort: by_weight
 售出	uziu
 寿春	uziy
 收紧	uzjb
+收集	uzji
 手机	uzji
 受精	uzjk
 守将	uzjl
@@ -51304,7 +51311,8 @@ sort: by_weight
 无双	wuul
 吴说	wuuo
 无数	wuuu
-午睡	wuuv
+午睡	wuuv	100
+雾水	wuuv
 五刷	wuux
 无手	wuuz
 无渣	wuva
@@ -56075,7 +56083,7 @@ sort: by_weight
 一方	yifh
 一番	yifj
 衣服	yifu
-亦非	yifw
+一飞	yifw
 一高	yigc
 一概	yigd
 一个	yige
