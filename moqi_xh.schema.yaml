@@ -2,6 +2,12 @@
 # encoding: utf-8
 # https://github.com/gaboolic/rime-shuangpin-fuzhuma
 
+pro_comment_format:
+  fuzhu_code: true
+  candidate_length: 1
+  fuzhu_type: moqi
+  corrector: true
+  corrector_type: "{comment}"
 
 schema:
   schema_id: moqi_xh
@@ -242,7 +248,7 @@ speller:
   delimiter: " '"
   ## speller 未允许 aj 表示 an
   algebra:
-    # 这一段是为了支持加载全拼词库
+    # 这一段是为了支持加载全拼词库（如 tencent.dict.yaml），不适用于 base.dict.yaml
     # - xform/^([aoe])$/$1$1/
     # - xform/^(ang)$/ah/
     # - xform/^([^\[]*)iu$/$1Q/
@@ -282,6 +288,7 @@ speller:
 
     # - derive/^([jqxy])u/$1v/ # 开启jv=ju的模式
 
+    # ===== 处理 [ 格式（统一所有词库）=====
     - xform/[[]\w+\s+// # 去掉非首位的辅助码，并去掉空格
 
     - derive|^(.+)[[](\w)(\w)$|$1| # 纯双拼的情况

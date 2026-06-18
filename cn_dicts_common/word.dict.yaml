@@ -16403,6 +16403,7 @@ sort: by_weight
 回放	hvfh
 会犯	hvfj
 回复	hvfu
+恢复	hvfu
 会飞	hvfw
 会否	hvfz
 会搞	hvgc
@@ -20642,6 +20643,7 @@ sort: by_weight
 基因	jiyb
 既要	jiyc
 几页	jiye
+积液	jiye
 几样	jiyh
 记忆	jiyi
 # 几眼	jiyj
@@ -27269,7 +27271,7 @@ sort: by_weight
 络腮	losd
 洛桑	losh
 螺丝	losi
-罗索	loso
+啰嗦	loso
 罗松	loss
 罗素	losu
 落套	lotc
@@ -40843,6 +40845,7 @@ sort: by_weight
 太惨	tdcj
 太粗	tdcu
 太大	tdda
+泰达	tdda
 太刀	tddc
 泰德	tdde
 台灯	tddg
@@ -42983,6 +42986,7 @@ sort: by_weight
 同业	tsye
 同样	tsyh
 统一	tsyi
+同意	tsyi
 童颜	tsyj
 同源	tsyr
 通用	tsys
@@ -48262,6 +48266,7 @@ sort: by_weight
 只剩	viug
 智商	viuh
 只是	viui
+知识	viui
 之山	viuj
 直率	viuk
 直爽	viul
@@ -49197,6 +49202,7 @@ sort: by_weight
 中亚	vsya
 重音	vsyb
 重要	vsyc
+中药	vsyc
 中叶	vsye
 中央	vsyh
 中医	vsyi
@@ -51242,7 +51248,7 @@ sort: by_weight
 务农	wuns
 巫女	wunv
 屋内	wunw
-乌帕	wupa
+# 乌帕	wupa
 物品	wupb
 五排	wupd
 五盆	wupf
@@ -51635,6 +51641,7 @@ sort: by_weight
 微信	wwxb
 维系	wwxi
 卫星	wwxk
+微型	wwxk
 未向	wwxl
 危险	wwxm
 微笑	wwxn
@@ -53585,6 +53592,7 @@ sort: by_weight
 卸责	xpze
 鞋子	xpzi
 写作	xpzo
+协作	xpzo	100
 血钻	xpzr
 谢罪	xpzv
 协奏	xpzz
@@ -58179,7 +58187,7 @@ sort: by_weight
 有求	yzqq
 有权	yzqr
 有穷	yzqs
-有缺	yzqt
+优缺	yzqt
 有趣	yzqu
 又热	yzre
 有人	yzrf
@@ -58471,6 +58479,7 @@ sort: by_weight
 造林	zclb
 早来	zcld
 造了	zcle
+早了	zcle	100
 皂隶	zcli
 早领	zclk
 早恋	zclm

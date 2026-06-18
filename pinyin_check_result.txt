@@ -1,0 +1,22 @@
+Segments with full pinyin (length > 2): 809243
+
+shan[kl | 阿巴拉契亚山	a[ek ba[sl la[fl qi[fd ya[ay shan[kl	24
+xian[qs | 阿坝县	a[ek ba[tb xian[qs	38
+zang[ci | 阿坝藏族羌族自治州	a[ek ba[tb zang[ci zu[fu qiang[yv zu[fu zi[po zhi[dk zhou[dl	9
+qiang[yv | 阿坝藏族羌族自治州	a[ek ba[tb zang[ci zu[fu qiang[yv zu[fu zi[po zhi[dk zhou[dl	9
+zhi[dk | 阿坝藏族羌族自治州	a[ek ba[tb zang[ci zu[fu qiang[yv zu[fu zi[po zhi[dk zhou[dl	9
+zhou[dl | 阿坝藏族羌族自治州	a[ek ba[tb zang[ci zu[fu qiang[yv zu[fu zi[po zhi[dk zhou[dl	9
+zhou[dl | 阿坝州	a[ek ba[tb zhou[dl	35
+bao[by | 阿宝	a[ek bao[by	207
+bei[kr | 阿贝多	a[ek bei[kr duo[xx	36
+duo[xx | 阿贝多	a[ek bei[kr duo[xx	36
+ben[cb | 阿苯达唑	a[ek ben[cb da[zd zuo[kr	10
+zuo[kr | 阿苯达唑	a[ek ben[cb da[zd zuo[kr	10
+ben[cb | 阿苯达唑片	a[ek ben[cb da[zd zuo[kr pian[pv	1
+zuo[kr | 阿苯达唑片	a[ek ben[cb da[zd zuo[kr pian[pv	1
+pian[pv | 阿苯达唑片	a[ek ben[cb da[zd zuo[kr pian[pv	1
+rang[yu | 阿比让	a[ek bi[bb rang[yu	9
+bian[hc | 阿扁	a[ek bian[hc	26
+bing[du | 阿冰	a[ek bing[du	2
+bing[hn | 阿炳	a[ek bing[hn	245
+bing[qb | 阿兵哥	a[ek bing[qb ge[kk	14
