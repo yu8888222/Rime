@@ -2,40 +2,71 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	804
+#@/tick	831
+宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
 本	bf	0
 本公棚	bf gs[bs pg[mo	2
 绑环	bh[se hr[wb	6
+比较	bi[bb jn[if	0
+版	bj[py	0
+表演	bn[fy yj[db	0
+不	bu[ab	0
+不对	bu[ab dv[yc	0
+不对版	bu[ab dv[yc bj[py	2
+不权威	bu[ab qr[my ww[wn	2
+不用	bu[ab ys[kf	0
+不用力	bu[ab ys[kf li[vp	2
 北上	bw[lb uh[ba	0
 北上广	bw[lb uh[ba gl[di	2
+大	da[ar	0
+大莫大	da[ar mo[cd da[ar	4
+大漠	da[ar mo[dd	0
+大漠大	da[ar mo[dd da[ar	16
+大山	da[ar uj[kl	0
+大型	da[ar xk[kt	0
+大型表演	da[ar xk[kt bn[fy yj[db	2
+的	de[bu	0
 电话	dm[ov hx[yu	0
+点	dm[vh	0
 端	dr	0
 端	dr[le	0
 都是	dz[le ui[oz	0
 都是水	dz[le ui[oz uv[ln	2
+额度	ee[by du[gy	2
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
+高巨	gc[wk ju[kk	4
+高巨创新	gc[wk ju[kk il[rd xb[lj	4
 个锐	ge rv[jx	2
+个	ge[rl	0
 鸽钟	ge[rn vs[jv	270
 鸽主	ge[rn vu[wt	104
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	16
+干净	gj[au jk[dy	0
 广	gl[di	0
 工	gs[aa	2
 工程	gs[aa ig[hw	4
-公棚	gs[bs pg[mo	598
+公棚	gs[bs pg[mo	600
 公棚端	gs[bs pg[mo dr	4
 公棚端	gs[bs pg[mo dr[le	6
 公棚下	gs[bs pg[mo xx	6
 号	hc[kk	0
 海港	hd[dm gh[ds	0
 海港城	hd[dm gh[ds ig[ti	14
+换	hr[fr	0
+换一批	hr[fr yi[aa pi[fb	2
+花	hx[cb	0
 查棚	ia[md pg[mo	46
-程洋	ig[hw yh[dy	10
+程洋	ig[hw yh[dy	18
 城	ig[ti	0
+吃	ii[kv	0
+吃烤串	ii[kv kc[hk ir[kl	2
+创新	il[rd xb[lj	0
 进	jb[zj	0
+进度	jb[zj du[gy	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
 集鸽	ji[rm ge[rn	386
 集鸽结束	ji[rm ge[rn jp[sk uu[gr	4
@@ -48,39 +79,74 @@
 捷效	jp[fz xn[ww	2
 结束	jp[sk uu[gr	0
 结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
-嘉立创	jx[tk li[wb il[rd	52
+加班	jx[lk bj[wl	0
+加班小时	jx[lk bj[wl xn[lb ui[oc	2
+嘉立创	jx[tk li[wb il[rd	72
+烤串	kc[hk ir[kl	0
+可	ke[dk	0
+可转化	ke[dk vr[iv hx[rb	2
+可以	ke[dk yi[lr	0
+可以添加	ke[dk yi[lr tm[dx jx[lk	2
+来	ld[am	0
+来一份	ld[am yi[aa ff[rf	2
+力	li[vp	0
 立创	li[wb il[rd	2
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0
 连续集鸽	lm[zi xu[sd ji[rm ge[rn	2
+莫大	mo[cd da[ar	0
+没有	mw[du yz[uo	0
+没有区别	mw[du yz[uo qu[kx bp[kd	2
+那	na[ve	0
 那个	na[ve ge[rl	0
+那个比较干净	na[ve ge[rl bi[bb jn[if gj[au jk[dy	2
 那个公棚下面	na[ve ge[rl gs[bs pg[mo xx[ab mm[ao	2
+你	ni[rx	0
+你媳妇	ni[rx xi[nx fu[ne	2
 排针	pd[ff vf[ju	2
 平	pk[au	0
 普汇云通	pu[bo hv[dk yy[ag ts[zy	2
+起降	qi[tj jl[ef	0
+起降点	qi[tj jl[ef dm[vh	6
 清水	qk[do uv[ln	0
 清水蓝湾	qk[do uv[ln lj[cm wj[dg	10
 钱盆网	qm[jj pf[fm wh[kx	8
+权威	qr[my ww[wn	0
 缺	qt[fg	0
 去	qu	0
 去公棚	qu gs[bs pg[mo	2
+区别	qu[kx bp[kd	0
+人际	rf[pn ji[eu	0
 锐	rv[jx	0
 赛管锐	sd gr rv[jx	2
 赛格	sd[bb ge[mk	0
 赛格锐	sd[bb ge[mk rv[jx	202
 司放	si[vk fh	16
+所有	so[hj yz[uo	0
 天津	tm[ad jb[dy	0
 天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
+添加	tm[dx jx[lk	0
 同学	ts[kk xt[xz	0
+统一	ts[sy yi[aa	0
+图	tu[kd	0
+图人际	tu[kd rf[pn ji[eu	2
 啥	ua	0
 啥公棚	ua gs[bs pg[mo	2
+剩余	ug[qd yu[rm	0
+剩余书	ug[qd yu[rm uu[vd	2
 上	uh	0
 上笼	uh ls[vl	18
 上一曲	uh yi[aa qu[kc	4
+删除	uj[cd iu[em	0
+书	uu[vd	0
 水	uv[ln	0
 水墨	uv[ln mo[lt	0
 水墨平	uv[ln mo[lt pk[au	2
 这么大	ve[zw me[ps da[ar	0
+知道	vi[uk dc[zz	0
+知道所有	vi[uk dc[zz so[hj yz[uo	2
+智控	vi[uo ks[fg	2
+转化	vr[iv hx[rb	0
 主	vu	0
 主集鸽器	vu ji[rm ge[rn qi[kk	2
 主	vu[wt	0
@@ -88,25 +154,46 @@
 万科	wj[av ke[hd	0
 万科海港城	wj[av ke[hd hd[dm gh[ds ig[ti	2
 湾	wj[dg	0
+无法	wu[ay fa[dq	0
 无效	wu[ay xn[ww	0
 无效足环	wu[ay xn[ww zu[kz hr[wb	2
-微雪	ww[rj xt[ye	14
+微雪	ww[rj xt[ye	18
+媳妇	xi[nx fu[ne	0
 小	xn[lb	0
+小时	xn[lb ui[oc	0
 小闫同学	xn[lb yj[ms ts[kk xt[xz	4
 下	xx	0
 下一曲	xx yi[aa qu[kc	2
+下	xx[ab	0
 下面	xx[ab mm[ao	0
+下一家	xx[ab yi[aa jx[bu	2
 训放	xy[yi fh	8
 银豆网	yb[jg dz[ab wh[kx	4
+要	yc[xn	0
+要统一	yc[xn ts[sy yi[aa	2
+也	ye[vv	0
+也删除	ye[vv uj[cd iu[em	2
 央智眼	yh[kr vi[uo yj[og	50
 一道	yi[aa dc[zz	0
+一份	yi[aa ff[rf	0
+一飞	yi[aa fw[vd	2
+一个	yi[aa ge[rl	0
+一个无法预约的大山	yi[aa ge[rl wu[ay fa[dq yu[yy yt[su de[bu da[ar uj[kl	2
+一家	yi[aa jx[bu	0
+一批	yi[aa pi[fb	0
 一曲	yi[aa qu[kc	0
+亿航	yi[rv hh[vj	4
 闫	yj[ms	0
+研发	yj[uk fa[fy	0
+研发进度	yj[uk fa[fy jb[zj du[gy	2
 羽色	yu[xx se	2
+预约	yu[yy yt[su	0
 云	yy	0
 有	yz	0
 有上笼	yz uh ls[vl	4
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
+自己	zi[po ji[kv	0
+自己花	zi[po ji[kv hx[cb	2
 足环	zu[kz hr[wb	22
 足环号	zu[kz hr[wb hc[kk	12
