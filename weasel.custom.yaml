@@ -2,12 +2,12 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Thu Jun  5 10:37:30 2025"
+  modified_time: "Wed Jul  8 14:10:24 2026"
   rime_version: 1.13.1
 patch:
   "preset_color_schemes/+":
-    win11dark: {back_color: 0x2C2C2C, border_color: 0x002C2C2C, hilited_candidate_back_color: 0x383838, hilited_label_color: 0xf9f9f9, hilited_mark_color: 0x0078D4, label_color: 0xf9f9f9, name: "Win11暗色 / Win11Dark", shadow_color: 0x300000, text_color: 0xf9f9f9}
-    win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x0078D4, label_color: 0x191919, name: " Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
+    win11dark: {back_color: 0x2C2C2C, border_color: 0x002C2C2C, candidate_text_color: 0xf9f9f9, comment_text_color: 0x999999, hilited_candidate_back_color: 0x383838, hilited_candidate_text_color: 0xf9f9f9, hilited_comment_text_color: 0xCCCCCC, hilited_label_color: 0xf9f9f9, hilited_mark_color: 0x0078D4, hilited_text_color: 0xf9f9f9, label_color: 0xf9f9f9, name: "Win11暗色 / Win11Dark", shadow_color: 0x300000, text_color: 0xf9f9f9}
+    win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, candidate_text_color: 0x191919, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_candidate_text_color: 0x0078D4, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x0078D4, hilited_text_color: 0x191919, label_color: 0x191919, name: " Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
   "style/+":
     color_scheme: win11light
     comment_font_point: 12
@@ -17,4 +17,4 @@ patch:
     label_font_point: 15
     label_format: ""
     layout: {border: 2, candidate_spacing: 2, corner_radius: 10, hilite_padding: 2, hilite_padding_x: 8, hilite_spacing: 6, margin_x: 16, margin_y: 8, min_width: 10, round_corner: 8, shadow_radius: 8}
-  "style/color_scheme": win11light
+  "style/color_scheme": win11dark

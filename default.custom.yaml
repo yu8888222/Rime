@@ -7,6 +7,6 @@ customization:
 patch:
   "ascii_composer/switch_key/Caps_Lock": commit_code
   menu:
-    page_size: 2
+    page_size: 9
   schema_list:
     - {schema: moqi_xh}

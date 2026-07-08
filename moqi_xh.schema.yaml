@@ -4,7 +4,7 @@
 
 pro_comment_format:
   fuzhu_code: true
-  candidate_length: 1
+  candidate_length: 4
   fuzhu_type: moqi
   corrector: true
   corrector_type: "{comment}"
@@ -448,7 +448,7 @@ custom_phrase:
   initial_quality: 100001
 
 menu:
-  page_size: 5
+  page_size: 9
 
 big_char_set:
   dictionary: "cn_dicts_moqi/41448"
