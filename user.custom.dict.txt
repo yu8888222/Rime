@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	831
+#@/tick	833
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -23,7 +23,7 @@
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
-大漠大	da[ar mo[dd da[ar	16
+大漠大	da[ar mo[dd da[ar	18
 大山	da[ar uj[kl	0
 大型	da[ar xk[kt	0
 大型表演	da[ar xk[kt bn[fy yj[db	2
@@ -37,7 +37,7 @@
 额度	ee[by du[gy	2
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
-高巨	gc[wk ju[kk	4
+高巨	gc[wk ju[kk	6
 高巨创新	gc[wk ju[kk il[rd xb[lj	4
 个锐	ge rv[jx	2
 个	ge[rl	0

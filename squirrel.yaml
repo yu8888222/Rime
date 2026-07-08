@@ -35,7 +35,7 @@ style:
   hilite_spacing: 6
   spacing: 12
   text_orientation: horizontal  # horizontal | vertical
-  candidate_list_layout: vertical  # linear | vertical
+  candidate_list_layout: linear  # linear | vertical
 
 preset_color_schemes:
   native:

@@ -6,13 +6,13 @@ customization:
   rime_version: 1.13.1
 patch:
   "preset_color_schemes/+":
-    win11dark: {back_color: 0x2C2C2C, border_color: 0x002C2C2C, hilited_candidate_back_color: 0x383838, hilited_label_color: 0xf9f9f9, hilited_mark_color: 0xFFC24C, label_color: 0xf9f9f9, name: "Win11暗色 / Win11Dark", shadow_color: 0x300000, text_color: 0xf9f9f9}
-    win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x06b000, label_color: 0x191919, name: " Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
+    win11dark: {back_color: 0x2C2C2C, border_color: 0x002C2C2C, hilited_candidate_back_color: 0x383838, hilited_label_color: 0xf9f9f9, hilited_mark_color: 0x0078D4, label_color: 0xf9f9f9, name: "Win11暗色 / Win11Dark", shadow_color: 0x300000, text_color: 0xf9f9f9}
+    win11light: {back_color: 0xf9f9f9, border_color: 0x009e5a00, comment_text_color: 0xA6A6A6, hilited_candidate_back_color: 0xf9f9f9, hilited_comment_text_color: 0x9E9E9E, hilited_label_color: 0x191919, hilited_mark_color: 0x0078D4, label_color: 0x191919, name: " Win11浅色 / Win11light", shadow_color: 0x300000, text_color: 0x191919}
   "style/+":
     color_scheme: win11light
     comment_font_point: 12
     font_point: 15
-    horizontal: false
+    horizontal: true
     inline_preedit: true
     label_font_point: 15
     label_format: ""
