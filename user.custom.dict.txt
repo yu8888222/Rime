@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	833
+#@/tick	844
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -23,13 +23,16 @@
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
-大漠大	da[ar mo[dd da[ar	18
+大漠大	da[ar mo[dd da[ar	24
 大山	da[ar uj[kl	0
 大型	da[ar xk[kt	0
 大型表演	da[ar xk[kt bn[fy yj[db	2
 的	de[bu	0
+当前	dh[xe qm[bd	0
 电话	dm[ov hx[yu	0
 点	dm[vh	0
+多	do[xx	0
+多场次	do[xx ih[tp ci[dq	2
 端	dr	0
 端	dr[le	0
 都是	dz[le ui[oz	0
@@ -38,7 +41,7 @@
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 高巨	gc[wk ju[kk	6
-高巨创新	gc[wk ju[kk il[rd xb[lj	4
+高巨创新	gc[wk ju[kk il[rd xb[lj	6
 个锐	ge rv[jx	2
 个	ge[rl	0
 鸽钟	ge[rn vs[jv	270
@@ -49,6 +52,7 @@
 广	gl[di	0
 工	gs[aa	2
 工程	gs[aa ig[hw	4
+工资	gs[aa zi[db	0
 公棚	gs[bs pg[mo	600
 公棚端	gs[bs pg[mo dr	4
 公棚端	gs[bs pg[mo dr[le	6
@@ -60,14 +64,16 @@
 换一批	hr[fr yi[aa pi[fb	2
 花	hx[cb	0
 查棚	ia[md pg[mo	46
-程洋	ig[hw yh[dy	18
+程洋	ig[hw yh[dy	20
 城	ig[ti	0
+场次	ih[tp ci[dq	0
 吃	ii[kv	0
 吃烤串	ii[kv kc[hk ir[kl	2
 创新	il[rd xb[lj	0
 进	jb[zj	0
 进度	jb[zj du[gy	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
+技术性	ji[fv uu[md xk[xu	0
 集鸽	ji[rm ge[rn	386
 集鸽结束	ji[rm ge[rn jp[sk uu[gr	4
 集鸽器	ji[rm ge[rn qi[kk	360
@@ -83,12 +89,16 @@
 加班小时	jx[lk bj[wl xn[lb ui[oc	2
 嘉立创	jx[tk li[wb il[rd	72
 烤串	kc[hk ir[kl	0
+开	kd[ac	0
+开工资	kd[ac gs[aa zi[db	2
 可	ke[dk	0
 可转化	ke[dk vr[iv hx[rb	2
 可以	ke[dk yi[lr	0
 可以添加	ke[dk yi[lr tm[dx jx[lk	2
 来	ld[am	0
 来一份	ld[am yi[aa ff[rf	2
+里面	li[tt mm[ao	0
+里面的	li[tt mm[ao de[bu	2
 力	li[vp	0
 立创	li[wb il[rd	2
 蓝	lj[cm	0
@@ -101,7 +111,11 @@
 那个	na[ve ge[rl	0
 那个比较干净	na[ve ge[rl bi[bb jn[if gj[au jk[dy	2
 那个公棚下面	na[ve ge[rl gs[bs pg[mo xx[ab mm[ao	2
+那里	na[ve li[tt	0
+那里转转	na[ve li[tt vr[iv vr[iv	2
 你	ni[rx	0
+你可	ni[rx ke[dk	0
+你可是技术性人才	ni[rx ke[dk ui[oz ji[fv uu[md xk[xu rf[pn cd[up	2
 你媳妇	ni[rx xi[nx fu[ne	2
 排针	pd[ff vf[ju	2
 平	pk[au	0
@@ -116,6 +130,7 @@
 去	qu	0
 去公棚	qu gs[bs pg[mo	2
 区别	qu[kx bp[kd	0
+人才	rf[pn cd[up	0
 人际	rf[pn ji[eu	0
 锐	rv[jx	0
 赛管锐	sd gr rv[jx	2
@@ -123,6 +138,8 @@
 赛格锐	sd[bb ge[mk rv[jx	202
 司放	si[vk fh	16
 所有	so[hj yz[uo	0
+他	ta[ry	0
+他当前	ta[ry dh[xe qm[bd	2
 天津	tm[ad jb[dy	0
 天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
 添加	tm[dx jx[lk	0
@@ -137,6 +154,7 @@
 上	uh	0
 上笼	uh ls[vl	18
 上一曲	uh yi[aa qu[kc	4
+是	ui[oz	0
 删除	uj[cd iu[em	0
 书	uu[vd	0
 水	uv[ln	0
@@ -147,6 +165,7 @@
 知道所有	vi[uk dc[zz so[hj yz[uo	2
 智控	vi[uo ks[fg	2
 转化	vr[iv hx[rb	0
+转转	vr[iv vr[iv	0
 主	vu	0
 主集鸽器	vu ji[rm ge[rn qi[kk	2
 主	vu[wt	0
