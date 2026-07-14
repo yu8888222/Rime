@@ -1,12 +1,11 @@
 -- 长按 Shift 临时英文处理器
+-- 设计原则：完全不调用 set_option("ascii_mode")，避免触发 notifier 循环
 -- 行为：
---   1. 有编码时按下 Shift：不拦截，交给 ascii_composer 执行 commit_code（短按流程不变）
---   2. 无编码时按下 Shift：记录进入临时英文模式，切换到英文
---      - 若按下后没有其他按键（短按），松开时切回中文（相当于短按无副作用）
---        但若你希望短按能切换中英文，此处保留 hold_shift 标记，松开时若未输入过其他键则切换一次
---   3. 无编码时按住 Shift 期间：保持英文输入
---   4. 松开 Shift：切回中文
--- 短按判定：按下与松开之间没有其他按键事件
+--   1. 有编码时按下 Shift：不拦截，让 ascii_composer 执行 commit_code（短按流程不变）
+--   2. 无编码时按下 Shift：进入 hold_shift 状态，不切换 ascii_mode
+--      - 按住期间字母键直接 push_input 小写字母到 context（中文模式下 speller 会把它当 ascii 处理）
+--      - 松开时若为短按（没按过其他键），则切换一次中英文
+--      - 松开时若为长按，不切换（保持原模式）
 
 local XK_Shift_L = 0xffe1
 local XK_Shift_R = 0xffe2
@@ -14,24 +13,19 @@ local rime = require "sbxlm.lib"
 
 local this = {}
 
----@class HoldShiftEnv: Env
----@field hold_shift boolean 是否处于长按临时英文状态
----@field had_other_key 按下 Shift 后是否按下过其他键（用于区分短按）
-
 function this.init(env)
   env.hold_shift = false
   env.had_other_key = false
+  env.was_english_on_press = false
 end
 
 ---@param key_event KeyEvent
----@param env HoldShiftEnv
+---@param env Env
 function this.func(key_event, env)
   local context = env.engine.context
   local keycode = key_event.keycode
 
-  -- 长按 Shift 临时英文模式期间，字母键转小写输入
-  -- 由于物理上 Shift 仍按住，字母会带 Shift 修饰符被识别为大写
-  -- 这里拦截 A-Z，直接把小写字母推入输入缓冲区
+  -- 长按 Shift 临时英文模式期间，字母键转小写直接推入 context
   if env.hold_shift and not key_event:release()
      and not key_event:alt() and not key_event:ctrl() and not key_event:super() then
     -- A-Z（带 Shift 修饰符）→ 转小写推入
@@ -41,60 +35,43 @@ function this.func(key_event, env)
       context:push_input(ch)
       return rime.process_results.kAccepted
     end
-    -- a-z（某些前端在 ascii_mode 下可能不挂 Shift 修饰符）→ 放行
-    if keycode >= 0x61 and keycode <= 0x7a then
-      env.had_other_key = true
-      return rime.process_results.kNoop
-    end
-    -- 其他可打印字符（数字、符号等）→ 放行
-    if env.hold_shift and not key_event:release() then
-      env.had_other_key = true
-    end
   end
 
-  -- 只处理 Shift_L / Shift_R
+  -- 非 Shift 键：记录其他按键
   if keycode ~= XK_Shift_L and keycode ~= XK_Shift_R then
-    -- 记录其他按键
     if env.hold_shift and not key_event:release() then
       env.had_other_key = true
     end
     return rime.process_results.kNoop
   end
 
-  -- 松开事件
+  -- Shift 松开事件
   if key_event:release() then
     if env.hold_shift then
       local was_short = not env.had_other_key
       env.hold_shift = false
       env.had_other_key = false
       if was_short then
-        -- 短按：保持按下时已切换的状态（中→英 或 英→中），不额外操作
-        env.was_english_on_press = nil
-      else
-        -- 长按：恢复到按下前的模式
-        context:set_option("ascii_mode", env.was_english_on_press)
-        env.was_english_on_press = nil
+        -- 短按：切换一次中英文
+        context:set_option("ascii_mode", not env.was_english_on_press)
       end
+      -- 长按：不切换，保持原模式（因为期间没有 set_option）
+      env.was_english_on_press = false
       return rime.process_results.kAccepted
     end
     return rime.process_results.kNoop
   end
 
-  -- 按下事件
-  local ascii_mode = context:get_option("ascii_mode")
-
-  -- 有编码：不拦截，让 ascii_composer 执行 commit_code（短按流程不变）
+  -- Shift 按下事件
+  -- 有编码：不拦截，让 ascii_composer 执行 commit_code
   if context:is_composing() then
     return rime.process_results.kNoop
   end
 
-  -- 无编码时：进入长按临时英文/中文切换模式
-  -- 记录按下时所处的模式，松开时若为短按则翻转一次（短按切换）
+  -- 无编码：进入 hold_shift 状态，不切换 ascii_mode
   env.hold_shift = true
   env.had_other_key = false
-  env.was_english_on_press = ascii_mode
-  -- 立即切换到目标模式：中文→英文，英文→中文
-  context:set_option("ascii_mode", not ascii_mode)
+  env.was_english_on_press = context:get_option("ascii_mode")
   return rime.process_results.kAccepted
 end
 
