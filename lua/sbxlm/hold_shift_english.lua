@@ -25,14 +25,14 @@ function this.func(key_event, env)
   local context = env.engine.context
   local keycode = key_event.keycode
 
-  -- 长按 Shift 临时英文模式期间，字母键转小写直接推入 context
+  -- 长按 Shift 临时英文模式期间，字母键转小写直接上屏
   if env.hold_shift and not key_event:release()
      and not key_event:alt() and not key_event:ctrl() and not key_event:super() then
-    -- A-Z（带 Shift 修饰符）→ 转小写推入
+    -- A-Z（带 Shift 修饰符）→ 转小写直接 commit_text 上屏
     if keycode >= 0x41 and keycode <= 0x5a then
       env.had_other_key = true
       local ch = string.char(keycode + 32)
-      context:push_input(ch)
+      env.engine:commit_text(ch)
       return rime.process_results.kAccepted
     end
   end
