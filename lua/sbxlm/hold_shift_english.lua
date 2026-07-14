@@ -31,22 +31,24 @@ function this.func(key_event, env)
 
   -- 长按 Shift 临时英文模式期间，字母键转小写输入
   -- 由于物理上 Shift 仍按住，字母会带 Shift 修饰符被识别为大写
-  -- 这里拦截 A-Z，用 engine:process_key 重新发一个不带 Shift 的小写字母事件
+  -- 这里拦截 A-Z，直接把小写字母推入输入缓冲区
   if env.hold_shift and not key_event:release()
      and not key_event:alt() and not key_event:ctrl() and not key_event:super() then
-    -- A-Z（带 Shift 修饰符）
+    -- A-Z（带 Shift 修饰符）→ 转小写推入
     if keycode >= 0x41 and keycode <= 0x5a then
       env.had_other_key = true
       local ch = string.char(keycode + 32)
-      -- 先释放 Shift（让 ascii_composer 忘掉 shift 状态），再注入小写字母
-      env.engine:process_key(rime.KeyEvent("Release+" .. ch))
-      env.engine:process_key(rime.KeyEvent(ch))
+      context:push_input(ch)
       return rime.process_results.kAccepted
     end
-    -- a-z（某些前端在 ascii_mode 下可能不挂 Shift 修饰符）
+    -- a-z（某些前端在 ascii_mode 下可能不挂 Shift 修饰符）→ 放行
     if keycode >= 0x61 and keycode <= 0x7a then
       env.had_other_key = true
       return rime.process_results.kNoop
+    end
+    -- 其他可打印字符（数字、符号等）→ 放行
+    if env.hold_shift and not key_event:release() then
+      env.had_other_key = true
     end
   end
 
