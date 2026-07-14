@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	844
+#@/tick	845
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -16,6 +16,7 @@
 不对	bu[ab dv[yc	0
 不对版	bu[ab dv[yc bj[py	2
 不权威	bu[ab qr[my ww[wn	2
+不撒手	bu[ab sa[fw uz[pf	2
 不用	bu[ab ys[kf	0
 不用力	bu[ab ys[kf li[vp	2
 北上	bw[lb uh[ba	0
@@ -23,7 +24,7 @@
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
-大漠大	da[ar mo[dd da[ar	24
+大漠大	da[ar mo[dd da[ar	32
 大山	da[ar uj[kl	0
 大型	da[ar xk[kt	0
 大型表演	da[ar xk[kt bn[fy yj[db	2
@@ -40,7 +41,7 @@
 额度	ee[by du[gy	2
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
-高巨	gc[wk ju[kk	6
+高巨	gc[wk ju[kk	10
 高巨创新	gc[wk ju[kk il[rd xb[lj	6
 个锐	ge rv[jx	2
 个	ge[rl	0
@@ -116,7 +117,7 @@
 你	ni[rx	0
 你可	ni[rx ke[dk	0
 你可是技术性人才	ni[rx ke[dk ui[oz ji[fv uu[md xk[xu rf[pn cd[up	2
-你媳妇	ni[rx xi[nx fu[ne	2
+你媳妇	ni[rx xi[nx fu[ne	4
 排针	pd[ff vf[ju	2
 平	pk[au	0
 普汇云通	pu[bo hv[dk yy[ag ts[zy	2
@@ -133,6 +134,7 @@
 人才	rf[pn cd[up	0
 人际	rf[pn ji[eu	0
 锐	rv[jx	0
+撒手	sa[fw uz[pf	0
 赛管锐	sd gr rv[jx	2
 赛格	sd[bb ge[mk	0
 赛格锐	sd[bb ge[mk rv[jx	202
