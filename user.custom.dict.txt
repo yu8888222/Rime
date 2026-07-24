@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	845
+#@/tick	850
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -24,7 +24,7 @@
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
-大漠大	da[ar mo[dd da[ar	32
+大漠大	da[ar mo[dd da[ar	40
 大山	da[ar uj[kl	0
 大型	da[ar xk[kt	0
 大型表演	da[ar xk[kt bn[fy yj[db	2
@@ -39,10 +39,13 @@
 都是	dz[le ui[oz	0
 都是水	dz[le ui[oz uv[ln	2
 额度	ee[by du[gy	2
+发	fa[fy	0
+发一个班	fa[fy yi[aa ge[rl bj[wl	2
+发一下	fa[fy yi[aa xx[ab	4
 非	fw[ls	0
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
 高巨	gc[wk ju[kk	10
-高巨创新	gc[wk ju[kk il[rd xb[lj	6
+高巨创新	gc[wk ju[kk il[rd xb[lj	10
 个锐	ge rv[jx	2
 个	ge[rl	0
 鸽钟	ge[rn vs[jv	270
@@ -157,6 +160,7 @@
 上笼	uh ls[vl	18
 上一曲	uh yi[aa qu[kc	4
 是	ui[oz	0
+是咋	ui[oz za[kv	2
 删除	uj[cd iu[em	0
 书	uu[vd	0
 水	uv[ln	0
@@ -199,10 +203,12 @@
 一份	yi[aa ff[rf	0
 一飞	yi[aa fw[vd	2
 一个	yi[aa ge[rl	0
+一个班	yi[aa ge[rl bj[wl	0
 一个无法预约的大山	yi[aa ge[rl wu[ay fa[dq yu[yy yt[su de[bu da[ar uj[kl	2
 一家	yi[aa jx[bu	0
 一批	yi[aa pi[fb	0
 一曲	yi[aa qu[kc	0
+一下	yi[aa xx[ab	0
 亿航	yi[rv hh[vj	4
 闫	yj[ms	0
 研发	yj[uk fa[fy	0
