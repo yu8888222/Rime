@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	850
+#@/tick	856
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -17,6 +17,8 @@
 不对版	bu[ab dv[yc bj[py	2
 不权威	bu[ab qr[my ww[wn	2
 不撒手	bu[ab sa[fw uz[pf	2
+不生效	bu[ab ug[pf xn[ww	2
+不说实话	bu[ab uo[yx ui[bd hx[yu	2
 不用	bu[ab ys[kf	0
 不用力	bu[ab ys[kf li[vp	2
 北上	bw[lb uh[ba	0
@@ -24,13 +26,16 @@
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
-大漠大	da[ar mo[dd da[ar	40
+大漠大	da[ar mo[dd da[ar	46
 大山	da[ar uj[kl	0
 大型	da[ar xk[kt	0
 大型表演	da[ar xk[kt bn[fy yj[db	2
+道理	dc[zz li[wl	0
 的	de[bu	0
 当前	dh[xe qm[bd	0
+地面站	di[ty mm[ao vj[lv	0
 电话	dm[ov hx[yu	0
+电脑	dm[ov nc[ox	0
 点	dm[vh	0
 多	do[xx	0
 多场次	do[xx ih[tp ci[dq	2
@@ -43,8 +48,10 @@
 发一个班	fa[fy yi[aa ge[rl bj[wl	2
 发一下	fa[fy yi[aa xx[ab	4
 非	fw[ls	0
+非常	fw[ls ih[xj	0
+非常卷	fw[ls ih[xj jr[jv	2
 非这么大进	fw[ls ve[zw me[ps da[ar jb[zj	2
-高巨	gc[wk ju[kk	10
+高巨	gc[wk ju[kk	18
 高巨创新	gc[wk ju[kk il[rd xb[lj	10
 个锐	ge rv[jx	2
 个	ge[rl	0
@@ -52,6 +59,9 @@
 鸽主	ge[rn vu[wt	104
 鸽主电话	ge[rn vu[wt dm[ov hx[yu	2
 鸽友	ge[rn yz[uy	16
+更	gg[an	0
+更换	gg[an hr[fr	0
+更夸张	gg[an kx[dk vh[gi	2
 干净	gj[au jk[dy	0
 广	gl[di	0
 工	gs[aa	2
@@ -61,19 +71,24 @@
 公棚端	gs[bs pg[mo dr	4
 公棚端	gs[bs pg[mo dr[le	6
 公棚下	gs[bs pg[mo xx	6
+功平	gs[gl pk[au	2
 号	hc[kk	0
+好大	hc[nz da[ar	0
+好友	hc[nz yz[uy	0
+好友道理	hc[nz yz[uy dc[zz li[wl	2
 海港	hd[dm gh[ds	0
 海港城	hd[dm gh[ds ig[ti	14
 换	hr[fr	0
 换一批	hr[fr yi[aa pi[fb	2
 花	hx[cb	0
 查棚	ia[md pg[mo	46
-程洋	ig[hw yh[dy	20
+程洋	ig[hw yh[dy	22
 城	ig[ti	0
 场次	ih[tp ci[dq	0
 吃	ii[kv	0
 吃烤串	ii[kv kc[hk ir[kl	2
 创新	il[rd xb[lj	0
+出来	iu[uu ld[am	0
 进	jb[zj	0
 进度	jb[zj du[gy	0
 集鸽器	ji;rm;rm;mv,vm;xw;od;ue;wy;rl; ge;rn;rn;nh;ec;om;jx;wg;rn; qi;kk;kk;kk,qk;oo;rr;dd;kk;kk;	4
@@ -89,9 +104,10 @@
 捷效	jp[fz xn[ww	2
 结束	jp[sk uu[gr	0
 结束集鸽	jp[sk uu[gr ji[rm ge[rn	2
+卷	jr[jv	0
 加班	jx[lk bj[wl	0
 加班小时	jx[lk bj[wl xn[lb ui[oc	2
-嘉立创	jx[tk li[wb il[rd	72
+嘉立创	jx[tk li[wb il[rd	74
 烤串	kc[hk ir[kl	0
 开	kd[ac	0
 开工资	kd[ac gs[aa zi[db	2
@@ -99,8 +115,12 @@
 可转化	ke[dk vr[iv hx[rb	2
 可以	ke[dk yi[lr	0
 可以添加	ke[dk yi[lr tm[dx jx[lk	2
+夸张	kx[dk vh[gi	0
+落下	la[ck xx[ab	0
+落下了	la[ck xx[ab le[al	2
 来	ld[am	0
 来一份	ld[am yi[aa ff[rf	2
+了	le[al	0
 里面	li[tt mm[ao	0
 里面的	li[tt mm[ao de[bu	2
 力	li[vp	0
@@ -108,9 +128,12 @@
 蓝	lj[cm	0
 连续	lm[zi xu[sd	0
 连续集鸽	lm[zi xu[sd ji[rm ge[rn	2
+买	md[ad	0
 莫大	mo[cd da[ar	0
 没有	mw[du yz[uo	0
 没有区别	mw[du yz[uo qu[kx bp[kd	2
+没有人	mw[du yz[uo rf[pn	0
+没有人买	mw[du yz[uo rf[pn md[ad	2
 那	na[ve	0
 那个	na[ve ge[rl	0
 那个比较干净	na[ve ge[rl bi[bb jn[if gj[au jk[dy	2
@@ -120,12 +143,14 @@
 你	ni[rx	0
 你可	ni[rx ke[dk	0
 你可是技术性人才	ni[rx ke[dk ui[oz ji[fv uu[md xk[xu rf[pn cd[up	2
+你躺下	ni[rx th[uk xx[ab	2
 你媳妇	ni[rx xi[nx fu[ne	4
 排针	pd[ff vf[ju	2
 平	pk[au	0
 普汇云通	pu[bo hv[dk yy[ag ts[zy	2
 起降	qi[tj jl[ef	0
 起降点	qi[tj jl[ef dm[vh	6
+起来	qi[tj ld[am	0
 清水	qk[do uv[ln	0
 清水蓝湾	qk[do uv[ln lj[cm wj[dg	10
 钱盆网	qm[jj pf[fm wh[kx	8
@@ -136,24 +161,31 @@
 区别	qu[kx bp[kd	0
 人才	rf[pn cd[up	0
 人际	rf[pn ji[eu	0
+如果	ru[nk go[tm	0
+如果我更换电脑	ru[nk go[tm wo[ga gg[an hr[fr dm[ov nc[ox	2
 锐	rv[jx	0
 撒手	sa[fw uz[pf	0
 赛管锐	sd gr rv[jx	2
 赛格	sd[bb ge[mk	0
 赛格锐	sd[bb ge[mk rv[jx	202
+桑堨	sh[ym ee[tr	2
 司放	si[vk fh	16
 所有	so[hj yz[uo	0
 他	ta[ry	0
 他当前	ta[ry dh[xe qm[bd	2
+躺下	th[uk xx[ab	0
 天津	tm[ad jb[dy	0
 天津赛格锐	tm[ad jb[dy sd[bb ge[mk rv[jx	2
 添加	tm[dx jx[lk	0
+调教	tn[yk jn[lw	0
+调教出来	tn[yk jn[lw iu[uu ld[am	2
 同学	ts[kk xt[xz	0
 统一	ts[sy yi[aa	0
 图	tu[kd	0
 图人际	tu[kd rf[pn ji[eu	2
 啥	ua	0
 啥公棚	ua gs[bs pg[mo	2
+生效	ug[pf xn[ww	0
 剩余	ug[qd yu[rm	0
 剩余书	ug[qd yu[rm uu[vd	2
 上	uh	0
@@ -162,11 +194,16 @@
 是	ui[oz	0
 是咋	ui[oz za[kv	2
 删除	uj[cd iu[em	0
+说实话	uo[yx ui[bd hx[yu	0
+输入	uu[id ru[pn	0
+输入的	uu[id ru[pn de[bu	2
 书	uu[vd	0
 水	uv[ln	0
 水墨	uv[ln mo[lt	0
 水墨平	uv[ln mo[lt pk[au	2
+这么	ve[zw me[ps	0
 这么大	ve[zw me[ps da[ar	0
+这么完美	ve[zw me[ps wj[by mw[yd	2
 知道	vi[uk dc[zz	0
 知道所有	vi[uk dc[zz so[hj yz[uo	2
 智控	vi[uo ks[fg	2
@@ -178,18 +215,28 @@
 主集鸽器	vu[wt ji[rm ge[rn qi[kk	4
 万科	wj[av ke[hd	0
 万科海港城	wj[av ke[hd hd[dm gh[ds ig[ti	2
+完美	wj[by mw[yd	0
 湾	wj[dg	0
+我	wo[ga	0
 无法	wu[ay fa[dq	0
 无效	wu[ay xn[ww	0
 无效足环	wu[ay xn[ww zu[kz hr[wb	2
+为	ww[ld	0
 微雪	ww[rj xt[ye	18
+新	xb[lj	0
+新电脑	xb[lj dm[ov nc[ox	2
 媳妇	xi[nx fu[ne	0
+想法	xl[mx fa[dq	0
 小	xn[lb	0
 小时	xn[lb ui[oc	0
 小闫同学	xn[lb yj[ms ts[kk xt[xz	4
+修改	xq[rp gd[jw	0
+修改为	xq[rp gd[jw ww[ld	2
 下	xx	0
 下一曲	xx yi[aa qu[kc	2
 下	xx[ab	0
+下了	xx[ab le[al	0
+下了好大	xx[ab le[al hc[nz da[ar	2
 下面	xx[ab mm[ao	0
 下一家	xx[ab yi[aa jx[bu	2
 训放	xy[yi fh	8
@@ -213,11 +260,17 @@
 闫	yj[ms	0
 研发	yj[uk fa[fy	0
 研发进度	yj[uk fa[fy jb[zj du[gy	2
+与	yu[va	0
+与地面站	yu[va di[ty mm[ao vj[lv	2
 羽色	yu[xx se	2
 预约	yu[yy yt[su	0
 云	yy	0
+运作	yy[zy zo[rv	0
+运作起来	yy[zy zo[rv qi[tj ld[am	2
 有	yz	0
 有上笼	yz uh ls[vl	4
+有没有	yz[uo mw[du yz[uo	0
+有没有新想法	yz[uo mw[du yz[uo xb[lj xl[mx fa[dq	2
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
 自己	zi[po ji[kv	0
