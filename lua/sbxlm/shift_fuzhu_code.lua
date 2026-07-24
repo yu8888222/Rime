@@ -1,13 +1,12 @@
 -- Shift+字母 追加辅码处理器
 -- 在首音节后追加辅码字母，并把光标移到追加辅码的末尾
--- 参考 editor.lua 的补码位置定位逻辑
+-- 墨奇双拼每个音节固定2码（声母+韵母），首音节末尾即第2个字符之后
 
 local rime = require "sbxlm.lib"
 
 local this = {}
 
 function this.init(env)
-  env.last_fuzhu_pos = nil
 end
 
 ---@param key_event KeyEvent
@@ -41,13 +40,13 @@ function this.func(key_event, env)
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
 
-  -- 必须满足补码条件：末音节有 3 码，且前面至少还有一个音节
-  if not rime.match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
+  -- 必须至少有2个音节（4码）才能回头补码
+  if #current_input < 4 then
     return rime.process_results.kNoop
   end
 
-  -- 找出首音节的长度（第二个声母之前的位置）
-  local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
+  -- 墨奇双拼每个音节固定2码，首音节末尾在位置2
+  local first_char_code_len = 2
 
   -- 把光标移到首音节末尾
   context.caret_pos = confirmed_position + first_char_code_len
