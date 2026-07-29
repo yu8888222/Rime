@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	863
+#@/tick	866
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -79,7 +79,7 @@
 好友	hc[nz yz[uy	0
 好友道理	hc[nz yz[uy dc[zz li[wl	2
 海港	hd[dm gh[ds	0
-海港城	hd[dm gh[ds ig[ti	14
+海港城	hd[dm gh[ds ig[ti	16
 换	hr[fr	0
 换一批	hr[fr yi[aa pi[fb	2
 花	hx[cb	0
@@ -128,6 +128,7 @@
 力	li[vp	0
 立创	li[wb il[rd	2
 蓝	lj[cm	0
+两边	ll[ar bm[zl	0
 连续	lm[zi xu[sd	0
 连续集鸽	lm[zi xu[sd ji[rm ge[rn	2
 买	md[ad	0
@@ -137,6 +138,7 @@
 没有人	mw[du yz[uo rf[pn	0
 没有人买	mw[du yz[uo rf[pn md[ad	2
 那	na[ve	0
+那边	na[ve bm[zl	0
 那个	na[ve ge[rl	0
 那个比较干净	na[ve ge[rl bi[bb jn[if gj[au jk[dy	2
 那个公棚下面	na[ve ge[rl gs[bs pg[mo xx[ab mm[ao	2
@@ -163,6 +165,8 @@
 去	qu	0
 去公棚	qu gs[bs pg[mo	2
 区别	qu[kx bp[kd	0
+去	qu[ts	0
+去那边	qu[ts na[ve bm[zl	2
 人才	rf[pn cd[up	0
 人际	rf[pn ji[eu	0
 如果	ru[nk go[tm	0
@@ -206,6 +210,8 @@
 水	uv[ln	0
 水墨	uv[ln mo[lt	0
 水墨平	uv[ln mo[lt pk[au	2
+这	ve[zw	0
+这两边	ve[zw ll[ar bm[zl	2
 这么	ve[zw me[ps	0
 这么大	ve[zw me[ps da[ar	0
 这么完美	ve[zw me[ps wj[by mw[yd	2
@@ -232,6 +238,7 @@
 新	xb[lj	0
 新电脑	xb[lj dm[ov nc[ox	2
 媳妇	xi[nx fu[ne	0
+想得	xl[mx de[rc	0
 想法	xl[mx fa[dq	0
 小	xn[lb	0
 小时	xn[lb ui[oc	0
@@ -277,6 +284,8 @@
 有上笼	yz uh ls[vl	4
 有没有	yz[uo mw[du yz[uo	0
 有没有新想法	yz[uo mw[du yz[uo xb[lj xl[mx fa[dq	2
+咋	za[kv	0
+咋想得	za[kv xl[mx de[rc	2
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
 自己	zi[po ji[kv	0

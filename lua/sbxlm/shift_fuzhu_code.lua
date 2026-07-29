@@ -67,9 +67,10 @@ function this.func(key_event, env)
     env.confirmed_pos = confirmed_position
   end
 
-  -- 辅码最多2个，达到后不再插入
+  -- 辅码最多2个，达到后不插入，但光标移到第二个辅码后面
   if #env.fuzhu_chars >= 2 then
-    return rime.process_results.kNoop
+    context.caret_pos = confirmed_position + 2 + #env.fuzhu_chars
+    return rime.process_results.kAccepted
   end
 
   -- 在首音节后（位置2 + 已有辅码数）插入新辅码
