@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	856
+#@/tick	863
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
 百图胜	bd[ab tu ug[ou	2
@@ -34,6 +34,8 @@
 的	de[bu	0
 当前	dh[xe qm[bd	0
 地面站	di[ty mm[ao vj[lv	0
+第三方	di[vd sj[ae fh[wv	0
+第三方网站	di[vd sj[ae fh[wv wh[kx vj[lv	2
 电话	dm[ov hx[yu	0
 电脑	dm[ov nc[ox	0
 点	dm[vh	0
@@ -46,7 +48,7 @@
 额度	ee[by du[gy	2
 发	fa[fy	0
 发一个班	fa[fy yi[aa ge[rl bj[wl	2
-发一下	fa[fy yi[aa xx[ab	4
+发一下	fa[fy yi[aa xx[ab	8
 非	fw[ls	0
 非常	fw[ls ih[xj	0
 非常卷	fw[ls ih[xj jr[jv	2
@@ -67,7 +69,7 @@
 工	gs[aa	2
 工程	gs[aa ig[hw	4
 工资	gs[aa zi[db	0
-公棚	gs[bs pg[mo	600
+公棚	gs[bs pg[mo	602
 公棚端	gs[bs pg[mo dr	4
 公棚端	gs[bs pg[mo dr[le	6
 公棚下	gs[bs pg[mo xx	6
@@ -82,7 +84,7 @@
 换一批	hr[fr yi[aa pi[fb	2
 花	hx[cb	0
 查棚	ia[md pg[mo	46
-程洋	ig[hw yh[dy	22
+程洋	ig[hw yh[dy	24
 城	ig[ti	0
 场次	ih[tp ci[dq	0
 吃	ii[kv	0
@@ -107,7 +109,7 @@
 卷	jr[jv	0
 加班	jx[lk bj[wl	0
 加班小时	jx[lk bj[wl xn[lb ui[oc	2
-嘉立创	jx[tk li[wb il[rd	74
+嘉立创	jx[tk li[wb il[rd	80
 烤串	kc[hk ir[kl	0
 开	kd[ac	0
 开工资	kd[ac gs[aa zi[db	2
@@ -153,6 +155,8 @@
 起来	qi[tj ld[am	0
 清水	qk[do uv[ln	0
 清水蓝湾	qk[do uv[ln lj[cm wj[dg	10
+轻松	qk[ij ss[mg	0
+轻松送	qk[ij ss[mg ss[zt	2
 钱盆网	qm[jj pf[fm wh[kx	8
 权威	qr[my ww[wn	0
 缺	qt[fg	0
@@ -171,6 +175,7 @@
 桑堨	sh[ym ee[tr	2
 司放	si[vk fh	16
 所有	so[hj yz[uo	0
+送	ss[zt	0
 他	ta[ry	0
 他当前	ta[ry dh[xe qm[bd	2
 躺下	th[uk xx[ab	0
@@ -213,6 +218,7 @@
 主集鸽器	vu ji[rm ge[rn qi[kk	2
 主	vu[wt	0
 主集鸽器	vu[wt ji[rm ge[rn qi[kk	4
+网站	wh[kx vj[lv	0
 万科	wj[av ke[hd	0
 万科海港城	wj[av ke[hd hd[dm gh[ds ig[ti	2
 完美	wj[by mw[yd	0
@@ -259,7 +265,7 @@
 亿航	yi[rv hh[vj	4
 闫	yj[ms	0
 研发	yj[uk fa[fy	0
-研发进度	yj[uk fa[fy jb[zj du[gy	2
+研发进度	yj[uk fa[fy jb[zj du[gy	4
 与	yu[va	0
 与地面站	yu[va di[ty mm[ao vj[lv	2
 羽色	yu[xx se	2
@@ -274,6 +280,6 @@
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
 自己	zi[po ji[kv	0
-自己花	zi[po ji[kv hx[cb	2
+自己花	zi[po ji[kv hx[cb	4
 足环	zu[kz hr[wb	22
 足环号	zu[kz hr[wb hc[kk	12
