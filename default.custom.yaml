@@ -2,7 +2,7 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.17.4
   generator: "Rime::SwitcherSettings"
-  modified_time: "Wed Jul  8 13:36:43 2026"
+  modified_time: "Thu Aug 27 20:58:13 2026"
   rime_version: 1.13.1
 patch:
   "ascii_composer/switch_key/Caps_Lock": commit_code
@@ -10,3 +10,4 @@ patch:
     page_size: 9
   schema_list:
     - {schema: moqi_xh}
+    - {schema: luna_pinyin_simp}
