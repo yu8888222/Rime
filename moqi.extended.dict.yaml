@@ -21,6 +21,7 @@ import_tables:
   # - cn_dicts_moqi/41448     # 4万字大字表 可以关闭
   
   - cn_dicts_moqi/base     # 基础词库
+  - cn_dicts_moqi/fuzhu_first  # 首字辅码派生词表（Shift+辅码查词用，由 scripts/gen_fuzhu_first.js 生成）
   #- cn_dicts_moqi/ext      # 扩展词库
   # - cn_dicts_moqi/others   # 一些杂项 容错音和错字 可以不开
 

@@ -7,7 +7,7 @@ customization:
 patch:
   "ascii_composer/switch_key/Caps_Lock": commit_code
   menu:
-    page_size: 9
+    page_size: 2
   schema_list:
     - {schema: moqi_xh}
     - {schema: luna_pinyin_simp}

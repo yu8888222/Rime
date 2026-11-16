@@ -2,7 +2,7 @@
 #@/db_name	user.custom.dict
 #@/db_type	tabledb
 #@/rime_version	1.11.2
-#@/tick	981
+#@/tick	1038
 按下	an[fn xx[ab	0
 宝坻	bc[by di[tu	2
 保而防	bc[rm er fh[ef	6
@@ -13,6 +13,8 @@
 比较	bi[bb jn[if	0
 办塞	bj[lb sd[bt	2
 版	bj[py	0
+便忙	bm[rg mh[xw	2
+便篇	bm[rg pm[vc	2
 表演	bn[fy yj[db	0
 不	bu[ab	0
 不对	bu[ab dv[yc	0
@@ -30,6 +32,9 @@
 不用力	bu[ab ys[kf li[vp	2
 北上	bw[lb uh[ba	0
 北上广	bw[lb uh[ba gl[di	2
+测的	ce[dd de[bu	0
+刺激	ci[ud ji[dw	0
+刺激眼睛	ci[ud ji[dw yj[og jk[oo	2
 大	da[ar	0
 大莫大	da[ar mo[cd da[ar	4
 大漠	da[ar mo[dd	0
@@ -95,10 +100,10 @@
 好友	hc[nz yz[uy	0
 好友道理	hc[nz yz[uy dc[zz li[wl	2
 海港	hd[dm gh[ds	0
-海港城	hd[dm gh[ds ig[ti	20
+海港城	hd[dm gh[ds ig[ti	24
 合适	he[rk ui[zu	0
 换	hr[fr	0
-换一批	hr[fr yi[aa pi[fb	2
+换一批	hr[fr yi[aa pi[fb	4
 环境	hr[wb jk[te	0
 会	hv[ry	0
 会显示一段文案	hv[ry xm[oy ui[ex yi[aa dr[pu wf[wx an[bm	2
@@ -137,7 +142,7 @@
 加班小时	jx[lk bj[wl xn[lb ui[oc	2
 加载	jx[lk zd[gi	0
 加在哪里合适	jx[lk zd[ut na[ke li[tt he[rk ui[zu	2
-嘉立创	jx[tk li[wb il[rd	162
+嘉立创	jx[tk li[wb il[rd	206
 烤串	kc[hk ir[kl	0
 开	kd[ac	0
 开工资	kd[ac gs[aa zi[db	2
@@ -156,6 +161,7 @@
 里面	li[tt mm[ao	0
 里面的	li[tt mm[ao de[bu	2
 力	li[vp	0
+力掉	li[vp dn[fu	2
 立创	li[wb il[rd	4
 蓝	lj[cm	0
 两边	ll[ar bm[zl	0
@@ -166,7 +172,7 @@
 买	md[ad	0
 面	mm[ao	0
 莫大	mo[cd da[ar	0
-墨台	mo[lt td[sk	24
+墨台	mo[lt td[sk	38
 没	mw[du	0
 没连上网	mw[du lm[zi uh[ba wh[kx	2
 没有	mw[du yz[uo	0
@@ -181,6 +187,7 @@
 那里	na[ve li[tt	0
 那里转转	na[ve li[tt vr[iv vr[iv	2
 你	ni[rx	0
+你测的	ni[rx ce[dd de[bu	2
 你重新	ni[rx is[ql xb[lj	4
 你可	ni[rx ke[dk	0
 你可是技术性人才	ni[rx ke[dk ui[oz ji[fv uu[md xk[xu rf[pn cd[up	2
@@ -204,8 +211,9 @@
 前	qm[bd	0
 钱盆网	qm[jj pf[fm wh[kx	12
 权威	qr[my ww[wn	0
-全刷	qr[rw ux[ud	22
+全刷	qr[rw ux[ud	32
 缺	qt[fg	0
+缺型	qt[fg xk[kt	2
 去	qu	0
 去公棚	qu gs[bs pg[mo	2
 区别	qu[kx bp[kd	0
@@ -215,6 +223,7 @@
 去那边	qu[ts na[ve bm[zl	2
 人才	rf[pn cd[up	0
 人际	rf[pn ji[eu	0
+让	rh[yu	0
 如果	ru[nk go[tm	0
 如果我更换电脑	ru[nk go[tm wo[ga gg[an hr[fr dm[ov nc[ox	2
 锐	rv[jx	0
@@ -260,7 +269,9 @@
 上一曲	uh yi[aa qu[kc	4
 时间	ui[oc jm[mo	0
 是	ui[oz	0
+是吗	ui[oz ma[km	8
 是咋	ui[oz za[kv	2
+是怎么	ui[oz zf[vx me[ps	14
 使用	ui[rl ys[kf	0
 使用长	ui[rl ys[kf ih[pn	2
 删除	uj[cd iu[em	0
@@ -290,7 +301,7 @@
 主板	vu[wt bj[my	0
 主集鸽器	vu[wt ji[rm ge[rn qi[kk	4
 主页	vu[wt ye[ab	0
-主页面	vu[wt ye[ab mm[ao	28
+主页面	vu[wt ye[ab mm[ao	58
 文案	wf[wx an[bm	0
 网站	wh[kx vj[lv	0
 万科	wj[av ke[hd	0
@@ -299,6 +310,8 @@
 湾	wj[dg	0
 我	wo[ga	0
 我按下	wo[ga an[fn xx[ab	2
+我是	wo[ga ui[oz	0
+我是让	wo[ga ui[oz rh[yu	2
 我憎	wo[ga zg[xo	2
 无	wu[ay	0
 无法	wu[ay fa[dq	0
@@ -309,8 +322,8 @@
 未改版	ww[am gd[jw bj[py	2
 未插入	ww[am ia[fj ru[pn	2
 为	ww[ld	0
-微雪	ww[rj xt[ye	20
-位号	ww[rl hc[kk	4
+微雪	ww[rj xt[ye	26
+位号	ww[rl hc[kk	6
 新	xb[lj	0
 新电脑	xb[lj dm[ov nc[ox	2
 媳妇	xi[nx fu[ne	0
@@ -353,8 +366,10 @@
 一曲	yi[aa qu[kc	0
 一套	yi[aa tc[dg	0
 一下	yi[aa xx[ab	0
+以瞎	yi[lr xx[ok	2
 亿航	yi[rv hh[vj	4
 闫	yj[ms	0
+眼睛	yj[og jk[oo	0
 研发	yj[uk fa[fy	0
 研发进度	yj[uk fa[fy jb[zj du[gy	4
 与	yu[va	0
@@ -375,6 +390,7 @@
 在	zd	0
 在公棚	zd gs[bs pg[mo	2
 在哪里	zd[ut na[ke li[tt	0
+怎么	zf[vx me[ps	0
 自己	zi[po ji[kv	0
 自己花	zi[po ji[kv hx[cb	4
 足环	zu[kz hr[wb	22

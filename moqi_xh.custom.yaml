@@ -1,0 +1,19 @@
+# 墨奇音形 + 小鹤双拼：长句（整句）优化补丁
+# 作用：为 script_translator 启用 octagram 语言模型，让整句分词参考上下文搭配
+# 使用的模型是本目录已有的 zhs-moqi.gram（墨奇训练的 n-gram 模型）
+# 若觉得整句变差或输入变卡，直接删除本文件并重新部署即可完全恢复
+
+patch:
+  # 让翻译器结合上下文做整句候选
+  "translator/contextual_suggestions": true
+  "translator/max_homophones": 4   # 最大同音簇长度
+  "translator/max_homographs": 2   # 最大同形簇长度
+
+  grammar:
+    language: zhs-moqi             # 对应目录下的 zhs-moqi.gram
+    collocation_max_length: 2      # 最多取 2 个字的搭配，避免长句被错误拼接
+    collocation_min_length: 1
+    non_collocation_penalty: -24   # 不成词的搭配惩罚
+    collocation_penalty: -6        # 成词搭配的惩罚（负得越少越优先）
+    weak_collocation_penalty: -12
+    rear_penalty: -18              # 句尾惩罚

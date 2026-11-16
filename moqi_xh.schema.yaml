@@ -454,7 +454,7 @@ custom_phrase:
   initial_quality: 100001
 
 menu:
-  page_size: 9
+  page_size: 2
 
 big_char_set:
   dictionary: "cn_dicts_moqi/41448"

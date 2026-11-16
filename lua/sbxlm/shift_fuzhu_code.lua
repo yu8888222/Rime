@@ -2,6 +2,9 @@
 -- 在首音节后追加辅码字母，支持多次按键累积追加（最多2个辅码）
 -- 光标始终保持在编码末尾，不移动到辅码位置
 -- 墨奇双拼每个音节固定2码（声母+韵母），首音节末尾即第2个字符之后
+-- 注意：不加分隔符！手动分隔符 ' 会把编码切成两个 segment，
+--       导致 yiaa / vi 分段查词，只能出“以啊只”。
+--       保持连续编码 yiaavi，配合 cn_dicts_moqi/fuzhu_first 词表查整词。
 
 local rime = require "sbxlm.lib"
 
@@ -67,7 +70,7 @@ function this.func(key_event, env)
     env.confirmed_pos = confirmed_position
   end
 
-  -- 辅码最多2个，达到后不插入，但光标移到第二个辅码后面
+  -- 辅码最多2个，达到后不插入，只把光标移到第二个辅码后面
   if #env.fuzhu_chars >= 2 then
     context.caret_pos = confirmed_position + 2 + #env.fuzhu_chars
     return rime.process_results.kAccepted
